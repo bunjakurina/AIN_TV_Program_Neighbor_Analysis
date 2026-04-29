@@ -1,0 +1,11 @@
+{
+  "instance": "us_iptv.json",
+  "variant": "premier",
+  "delta": null,
+  "program_count": 115446,
+  "statistics": {
+    "max_neighbors": 112118,
+    "min_neighbors": 0,
+    "avg_neighbors": 17081.276042478734
+  }
+}
