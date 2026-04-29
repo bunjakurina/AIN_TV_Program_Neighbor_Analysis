@@ -1,0 +1,640 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 4022 >>
+stream
+BT /F2 22 Tf 50.00 784.00 Td (TV Program Neighbor Analysis) Tj ET
+BT /F1 11 Tf 50.00 754.00 Td (TV Program Neighbor Analysis) Tj ET
+BT /F1 10 Tf 50.00 736.00 Td () Tj ET
+BT /F1 10 Tf 50.00 724.00 Td () Tj ET
+BT /F1 10 Tf 50.00 716.00 Td () Tj ET
+BT /F2 15 Tf 50.00 708.00 Td (1. Definimi i problemit) Tj ET
+BT /F1 10 Tf 50.00 689.00 Td () Tj ET
+BT /F1 10 Tf 50.00 684.00 Td () Tj ET
+BT /F1 10 Tf 50.00 676.00 Td (Ky projekt merret me gjetjen e fqinjeve te programeve televizive nga nje instance JSON. Cdo instance) Tj ET
+BT /F1 10 Tf 50.00 662.00 Td (permban nje liste te kanaleve, dhe secili kanal permban listen e programeve te tij. Qellimi eshte qe) Tj ET
+BT /F1 10 Tf 50.00 648.00 Td (nga kjo strukture te gjenerohet nje vektor fqinjesie, ku gjatesia e vektorit eshte e barabarte me) Tj ET
+BT /F1 10 Tf 50.00 634.00 Td (numrin total te programeve ne instance.) Tj ET
+BT /F1 10 Tf 50.00 620.00 Td () Tj ET
+BT /F1 10 Tf 50.00 612.00 Td (Nese instanca ka programe ne disa kanale, numri total i programeve llogaritet si:) Tj ET
+BT /F1 10 Tf 50.00 598.00 Td () Tj ET
+BT /F1 8 Tf 50.00 590.00 Td () Tj ET
+BT /F3 8 Tf 50.00 584.00 Td (numri_total = programe_ne_Ch0 + programe_ne_Ch1 + programe_ne_Ch2 + ...) Tj ET
+BT /F1 8 Tf 50.00 573.00 Td () Tj ET
+BT /F1 10 Tf 50.00 567.00 Td () Tj ET
+BT /F1 10 Tf 50.00 559.00 Td (Output-i kryesor eshte:) Tj ET
+BT /F1 10 Tf 50.00 545.00 Td () Tj ET
+BT /F1 8 Tf 50.00 537.00 Td () Tj ET
+BT /F3 8 Tf 50.00 531.00 Td ("neighbor_indices": [) Tj ET
+BT /F3 8 Tf 50.00 520.00 Td (  [1, 12],) Tj ET
+BT /F3 8 Tf 50.00 509.00 Td (  [],) Tj ET
+BT /F3 8 Tf 50.00 498.00 Td (  [5, 8, 9]) Tj ET
+BT /F3 8 Tf 50.00 487.00 Td (]) Tj ET
+BT /F1 8 Tf 50.00 476.00 Td () Tj ET
+BT /F1 10 Tf 50.00 470.00 Td () Tj ET
+BT /F1 10 Tf 50.00 462.00 Td (Kjo strukture lexohet keshtu:) Tj ET
+BT /F1 10 Tf 50.00 448.00 Td () Tj ET
+BT /F1 10 Tf 62.00 440.00 Td (- antari i pare i vektorit pershkruan fqinjet e programit me indeks 0;) Tj ET
+BT /F1 10 Tf 62.00 426.00 Td (- antari i dyte pershkruan fqinjet e programit me indeks 1;) Tj ET
+BT /F1 10 Tf 62.00 412.00 Td (- antari i trete pershkruan fqinjet e programit me indeks 2;) Tj ET
+BT /F1 10 Tf 62.00 398.00 Td (- cdo liste e brendshme permban indekset e programeve qe konsiderohen fqinje.) Tj ET
+BT /F1 10 Tf 50.00 384.00 Td () Tj ET
+BT /F1 10 Tf 50.00 376.00 Td (Nese nje program nuk ka fqinje, lista e tij eshte bosh:) Tj ET
+BT /F1 10 Tf 50.00 362.00 Td () Tj ET
+BT /F1 8 Tf 50.00 354.00 Td () Tj ET
+BT /F3 8 Tf 50.00 348.00 Td ([]) Tj ET
+BT /F1 8 Tf 50.00 337.00 Td () Tj ET
+BT /F1 10 Tf 50.00 331.00 Td () Tj ET
+BT /F1 10 Tf 50.00 323.00 Td (Kjo ne statistika llogaritet si 0 fqinje.) Tj ET
+BT /F1 10 Tf 50.00 309.00 Td () Tj ET
+BT /F1 10 Tf 50.00 301.00 Td () Tj ET
+BT /F2 15 Tf 50.00 293.00 Td (2. Qellimi i projektit) Tj ET
+BT /F1 10 Tf 50.00 274.00 Td () Tj ET
+BT /F1 10 Tf 50.00 269.00 Td () Tj ET
+BT /F1 10 Tf 50.00 261.00 Td (Qellimi nuk eshte implementimi i te gjitha constraints te problemit final te optimizimit, por definimi) Tj ET
+BT /F1 10 Tf 50.00 247.00 Td (dhe gjenerimi i nje strukture fqinjesie qe mund te perdoret me vone nga metoda te tjera, p.sh. per) Tj ET
+BT /F1 10 Tf 50.00 233.00 Td (swap, search neighborhood, heuristika ose algoritme optimizimi.) Tj ET
+BT /F1 10 Tf 50.00 219.00 Td () Tj ET
+BT /F1 10 Tf 50.00 211.00 Td (Per secilen instance projekti gjeneron:) Tj ET
+BT /F1 10 Tf 50.00 197.00 Td () Tj ET
+BT /F1 10 Tf 62.00 189.00 Td (- vektorin e fqinjeve per secilin program;) Tj ET
+BT /F1 10 Tf 62.00 175.00 Td (- numrin maksimal te fqinjeve per nje program;) Tj ET
+BT /F1 10 Tf 62.00 161.00 Td (- numrin minimal te fqinjeve per nje program;) Tj ET
+BT /F1 10 Tf 62.00 147.00 Td (- numrin mesatar te fqinjeve;) Tj ET
+BT /F1 10 Tf 62.00 133.00 Td (- madhesine e fajllit input;) Tj ET
+BT /F1 10 Tf 62.00 119.00 Td (- madhesine e fajllit output;) Tj ET
+BT /F1 10 Tf 62.00 105.00 Td (- memorien aktuale dhe memorien maksimale gjate ekzekutimit.) Tj ET
+BT /F1 10 Tf 50.00 91.00 Td () Tj ET
+BT /F1 9 Tf 500.00 30.00 Td (Page 1 / 8) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 3904 >>
+stream
+BT /F1 10 Tf 50.00 784.00 Td () Tj ET
+BT /F2 15 Tf 50.00 776.00 Td (3. Struktura e projektit) Tj ET
+BT /F1 10 Tf 50.00 757.00 Td () Tj ET
+BT /F1 10 Tf 50.00 752.00 Td () Tj ET
+BT /F1 8 Tf 50.00 744.00 Td () Tj ET
+BT /F3 8 Tf 50.00 738.00 Td (TV_Program_Neighbor_Analysis/) Tj ET
+BT /F3 8 Tf 50.00 727.00 Td (  main.py) Tj ET
+BT /F3 8 Tf 50.00 716.00 Td (  basic_neighbors.py) Tj ET
+BT /F3 8 Tf 50.00 705.00 Td (  advanced_neighbors.py) Tj ET
+BT /F3 8 Tf 50.00 694.00 Td (  valido.py) Tj ET
+BT /F3 8 Tf 50.00 683.00 Td (  instances/) Tj ET
+BT /F3 8 Tf 50.00 672.00 Td (  output/) Tj ET
+BT /F3 8 Tf 50.00 661.00 Td (  validation_reports/) Tj ET
+BT /F3 8 Tf 50.00 650.00 Td (  README.md) Tj ET
+BT /F3 8 Tf 50.00 639.00 Td (  project_documentation.pdf) Tj ET
+BT /F1 8 Tf 50.00 628.00 Td () Tj ET
+BT /F1 10 Tf 50.00 622.00 Td () Tj ET
+BT /F1 10 Tf 50.00 614.00 Td (Pershkrimi i fajllave kryesore:) Tj ET
+BT /F1 10 Tf 50.00 600.00 Td () Tj ET
+BT /F1 10 Tf 62.00 592.00 Td (- main.py eshte pika hyrese e programit. Lexon instancen, zgjedh variantin, gjeneron fqinjet, ruan) Tj ET
+BT /F1 10 Tf 62.00 578.00 Td (  output-in dhe shfaq statistikat/memorien.) Tj ET
+BT /F1 10 Tf 62.00 564.00 Td (- basic_neighbors.py permban variantin Basic, ku fqinjesia bazohet ne overlap kohor.) Tj ET
+BT /F1 10 Tf 62.00 550.00 Td (- advanced_neighbors.py permban variantin Advanced, ku fqinjesia bazohet ne nje dritare kohore me) Tj ET
+BT /F1 10 Tf 62.00 536.00 Td (  Delta.) Tj ET
+BT /F1 10 Tf 62.00 522.00 Td (- valido.py perdoret ndaras per te validuar output-in dhe per te gjeneruar raporte ndihmese.) Tj ET
+BT /F1 10 Tf 62.00 508.00 Td (- instances/ permban instancat JSON.) Tj ET
+BT /F1 10 Tf 62.00 494.00 Td (- output/ permban output-et e gjeneruara nga main.py.) Tj ET
+BT /F1 10 Tf 62.00 480.00 Td (- validation_reports/ permban raportet e gjeneruara nga valido.py.) Tj ET
+BT /F1 10 Tf 50.00 466.00 Td () Tj ET
+BT /F1 10 Tf 50.00 458.00 Td () Tj ET
+BT /F2 15 Tf 50.00 450.00 Td (4. Formati i input-it) Tj ET
+BT /F1 10 Tf 50.00 431.00 Td () Tj ET
+BT /F1 10 Tf 50.00 426.00 Td () Tj ET
+BT /F1 10 Tf 50.00 418.00 Td (Input-i eshte nje fajll JSON qe permban kanale dhe programe. Struktura minimale qe perdoret nga) Tj ET
+BT /F1 10 Tf 50.00 404.00 Td (projekti eshte:) Tj ET
+BT /F1 10 Tf 50.00 390.00 Td () Tj ET
+BT /F1 8 Tf 50.00 382.00 Td () Tj ET
+BT /F3 8 Tf 50.00 376.00 Td ({) Tj ET
+BT /F3 8 Tf 50.00 365.00 Td (  "channels": [) Tj ET
+BT /F3 8 Tf 50.00 354.00 Td (    {) Tj ET
+BT /F3 8 Tf 50.00 343.00 Td (      "channel_id": 0,) Tj ET
+BT /F3 8 Tf 50.00 332.00 Td (      "programs": [) Tj ET
+BT /F3 8 Tf 50.00 321.00 Td (        {) Tj ET
+BT /F3 8 Tf 50.00 310.00 Td (          "program_id": "n1",) Tj ET
+BT /F3 8 Tf 50.00 299.00 Td (          "start": 540,) Tj ET
+BT /F3 8 Tf 50.00 288.00 Td (          "end": 600,) Tj ET
+BT /F3 8 Tf 50.00 277.00 Td (          "genre": "news",) Tj ET
+BT /F3 8 Tf 50.00 266.00 Td (          "score": 80) Tj ET
+BT /F3 8 Tf 50.00 255.00 Td (        }) Tj ET
+BT /F3 8 Tf 50.00 244.00 Td (      ]) Tj ET
+BT /F3 8 Tf 50.00 233.00 Td (    }) Tj ET
+BT /F3 8 Tf 50.00 222.00 Td (  ]) Tj ET
+BT /F3 8 Tf 50.00 211.00 Td (}) Tj ET
+BT /F1 8 Tf 50.00 200.00 Td () Tj ET
+BT /F1 10 Tf 50.00 194.00 Td () Tj ET
+BT /F1 10 Tf 50.00 186.00 Td (Fushat kryesore:) Tj ET
+BT /F1 10 Tf 50.00 172.00 Td () Tj ET
+BT /F1 10 Tf 62.00 164.00 Td (- channel_id: identifikuesi i kanalit;) Tj ET
+BT /F1 10 Tf 62.00 150.00 Td (- program_id: identifikuesi i programit;) Tj ET
+BT /F1 10 Tf 62.00 136.00 Td (- start: koha e fillimit ne minuta;) Tj ET
+BT /F1 10 Tf 62.00 122.00 Td (- end: koha e perfundimit ne minuta;) Tj ET
+BT /F1 10 Tf 62.00 108.00 Td (- genre: zhanri i programit, i ruajtur ashtu si vjen nga JSON;) Tj ET
+BT /F1 10 Tf 62.00 94.00 Td (- score: vlere ndihmese e programit, e ruajtur ne output per lexim dhe analizim.) Tj ET
+BT /F1 10 Tf 50.00 80.00 Td () Tj ET
+BT /F1 9 Tf 500.00 30.00 Td (Page 2 / 8) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 4119 >>
+stream
+BT /F1 10 Tf 50.00 784.00 Td () Tj ET
+BT /F2 15 Tf 50.00 776.00 Td (5. Pergatitja e programeve) Tj ET
+BT /F1 10 Tf 50.00 757.00 Td () Tj ET
+BT /F1 10 Tf 50.00 752.00 Td () Tj ET
+BT /F1 10 Tf 50.00 744.00 Td (Programet ne input jane te ndara sipas kanaleve. Para se te gjenerohen fqinjet, main.py i sheshon te) Tj ET
+BT /F1 10 Tf 50.00 730.00 Td (gjitha programet ne nje liste te vetme.) Tj ET
+BT /F1 10 Tf 50.00 716.00 Td () Tj ET
+BT /F1 10 Tf 50.00 708.00 Td (Shembull:) Tj ET
+BT /F1 10 Tf 50.00 694.00 Td () Tj ET
+BT /F1 8 Tf 50.00 686.00 Td () Tj ET
+BT /F3 8 Tf 50.00 680.00 Td (Ch0: p0, p1) Tj ET
+BT /F3 8 Tf 50.00 669.00 Td (Ch1: p2, p3) Tj ET
+BT /F3 8 Tf 50.00 658.00 Td (Ch2: p4) Tj ET
+BT /F1 8 Tf 50.00 647.00 Td () Tj ET
+BT /F1 10 Tf 50.00 641.00 Td () Tj ET
+BT /F1 10 Tf 50.00 633.00 Td (kthehet ne:) Tj ET
+BT /F1 10 Tf 50.00 619.00 Td () Tj ET
+BT /F1 8 Tf 50.00 611.00 Td () Tj ET
+BT /F3 8 Tf 50.00 605.00 Td (0 -> p0) Tj ET
+BT /F3 8 Tf 50.00 594.00 Td (1 -> p1) Tj ET
+BT /F3 8 Tf 50.00 583.00 Td (2 -> p2) Tj ET
+BT /F3 8 Tf 50.00 572.00 Td (3 -> p3) Tj ET
+BT /F3 8 Tf 50.00 561.00 Td (4 -> p4) Tj ET
+BT /F1 8 Tf 50.00 550.00 Td () Tj ET
+BT /F1 10 Tf 50.00 544.00 Td () Tj ET
+BT /F1 10 Tf 50.00 536.00 Td (Pas sheshimit, programet sortohen sipas kohes:) Tj ET
+BT /F1 10 Tf 50.00 522.00 Td () Tj ET
+BT /F1 8 Tf 50.00 514.00 Td () Tj ET
+BT /F3 8 Tf 50.00 508.00 Td (programs.sort\(key=lambda x: \(x["start"], x["end"]\)\)) Tj ET
+BT /F1 8 Tf 50.00 497.00 Td () Tj ET
+BT /F1 10 Tf 50.00 491.00 Td () Tj ET
+BT /F1 10 Tf 50.00 483.00 Td (Pastaj global_index rifreskohet. Ky indeks eshte baza e neighbor_indices.) Tj ET
+BT /F1 10 Tf 50.00 469.00 Td () Tj ET
+BT /F1 10 Tf 50.00 461.00 Td () Tj ET
+BT /F2 15 Tf 50.00 453.00 Td (6. Varianti Basic) Tj ET
+BT /F1 10 Tf 50.00 434.00 Td () Tj ET
+BT /F1 10 Tf 50.00 429.00 Td () Tj ET
+BT /F1 10 Tf 50.00 421.00 Td (Varianti Basic gjenerohet nga basic_neighbors.py.) Tj ET
+BT /F1 10 Tf 50.00 407.00 Td () Tj ET
+BT /F1 10 Tf 50.00 399.00 Td (Rregulla aktuale:) Tj ET
+BT /F1 10 Tf 50.00 385.00 Td () Tj ET
+BT /F1 8 Tf 50.00 377.00 Td () Tj ET
+BT /F3 8 Tf 50.00 371.00 Td (B eshte fqinj i A nese:) Tj ET
+BT /F3 8 Tf 50.00 360.00 Td (1. B nuk eshte i njejti program me A;) Tj ET
+BT /F3 8 Tf 50.00 349.00 Td (2. B fillon ne te njejten kohe ose pas A;) Tj ET
+BT /F3 8 Tf 50.00 338.00 Td (3. A dhe B kane overlap kohor.) Tj ET
+BT /F1 8 Tf 50.00 327.00 Td () Tj ET
+BT /F1 10 Tf 50.00 321.00 Td () Tj ET
+BT /F1 10 Tf 50.00 313.00 Td (Kushti i overlap-it eshte:) Tj ET
+BT /F1 10 Tf 50.00 299.00 Td () Tj ET
+BT /F1 8 Tf 50.00 291.00 Td () Tj ET
+BT /F3 8 Tf 50.00 285.00 Td (A.start < B.end and B.start < A.end) Tj ET
+BT /F1 8 Tf 50.00 274.00 Td () Tj ET
+BT /F1 10 Tf 50.00 268.00 Td () Tj ET
+BT /F1 10 Tf 50.00 260.00 Td (Ky variant eshte i thjeshte dhe sherben si baseline. Ai gjen programet qe mbivendosen ne kohe me) Tj ET
+BT /F1 10 Tf 50.00 246.00 Td (programin aktual.) Tj ET
+BT /F1 10 Tf 50.00 232.00 Td () Tj ET
+BT /F1 10 Tf 50.00 224.00 Td (Shenim i rendesishem: kerkesa fillestare thote qe te Basic duhet te kontrollohet vetem overlap-i. Ne) Tj ET
+BT /F1 10 Tf 50.00 210.00 Td (implementimin aktual ruhet edhe kushti qe kandidati te mos filloje para programit aktual. Kjo e ben) Tj ET
+BT /F1 10 Tf 50.00 196.00 Td (fqinjesine te orientuar perpara ne kohe dhe shmang dyfishime simetrike, por duhet te arsyetohet ne) Tj ET
+BT /F1 10 Tf 50.00 182.00 Td (raport ose te ndryshohet nese kerkohet interpretim strikt i overlap-it.) Tj ET
+BT /F1 10 Tf 50.00 168.00 Td () Tj ET
+BT /F1 10 Tf 50.00 160.00 Td () Tj ET
+BT /F2 15 Tf 50.00 152.00 Td (7. Varianti Advanced) Tj ET
+BT /F1 10 Tf 50.00 133.00 Td () Tj ET
+BT /F1 10 Tf 50.00 128.00 Td () Tj ET
+BT /F1 10 Tf 50.00 120.00 Td (Varianti Advanced gjenerohet nga advanced_neighbors.py.) Tj ET
+BT /F1 10 Tf 50.00 106.00 Td () Tj ET
+BT /F1 10 Tf 50.00 98.00 Td (Rregulla aktuale:) Tj ET
+BT /F1 10 Tf 50.00 84.00 Td () Tj ET
+BT /F1 8 Tf 50.00 76.00 Td () Tj ET
+BT /F3 8 Tf 50.00 70.00 Td (B eshte fqinj i A nese:) Tj ET
+BT /F3 8 Tf 50.00 59.00 Td (1. B nuk eshte i njejti program me A;) Tj ET
+BT /F1 9 Tf 500.00 30.00 Td (Page 3 / 8) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 4190 >>
+stream
+BT /F3 8 Tf 50.00 784.00 Td (2. B fillon ne te njejten kohe ose pas A;) Tj ET
+BT /F3 8 Tf 50.00 773.00 Td (3. B fillon brenda dritares [A.start, A.end + Delta].) Tj ET
+BT /F1 8 Tf 50.00 762.00 Td () Tj ET
+BT /F1 10 Tf 50.00 756.00 Td () Tj ET
+BT /F1 10 Tf 50.00 748.00 Td (Ne kod, Delta eshte vendosur ne main.py:) Tj ET
+BT /F1 10 Tf 50.00 734.00 Td () Tj ET
+BT /F1 8 Tf 50.00 726.00 Td () Tj ET
+BT /F3 8 Tf 50.00 720.00 Td (DEFAULT_DELTA = 30) Tj ET
+BT /F1 8 Tf 50.00 709.00 Td () Tj ET
+BT /F1 10 Tf 50.00 703.00 Td () Tj ET
+BT /F1 10 Tf 50.00 695.00 Td (Pra, per nje program:) Tj ET
+BT /F1 10 Tf 50.00 681.00 Td () Tj ET
+BT /F1 8 Tf 50.00 673.00 Td () Tj ET
+BT /F3 8 Tf 50.00 667.00 Td (A.start = 600) Tj ET
+BT /F3 8 Tf 50.00 656.00 Td (A.end = 660) Tj ET
+BT /F3 8 Tf 50.00 645.00 Td (Delta = 30) Tj ET
+BT /F1 8 Tf 50.00 634.00 Td () Tj ET
+BT /F1 10 Tf 50.00 628.00 Td () Tj ET
+BT /F1 10 Tf 50.00 620.00 Td (dritarja e fqinjesise eshte:) Tj ET
+BT /F1 10 Tf 50.00 606.00 Td () Tj ET
+BT /F1 8 Tf 50.00 598.00 Td () Tj ET
+BT /F3 8 Tf 50.00 592.00 Td ([600, 690]) Tj ET
+BT /F1 8 Tf 50.00 581.00 Td () Tj ET
+BT /F1 10 Tf 50.00 575.00 Td () Tj ET
+BT /F1 10 Tf 50.00 567.00 Td (Cdo program kandidat qe fillon brenda kesaj dritareje konsiderohet fqinj, sipas rregullave te variantit) Tj ET
+BT /F1 10 Tf 50.00 553.00 Td (Advanced.) Tj ET
+BT /F1 10 Tf 50.00 539.00 Td () Tj ET
+BT /F1 10 Tf 50.00 531.00 Td (Ky variant eshte me fleksibil se Basic, sepse nuk kerkon domosdoshmerisht overlap. Ai lejon edhe) Tj ET
+BT /F1 10 Tf 50.00 517.00 Td (programe qe fillojne pak pas perfundimit te programit aktual, brenda Delta.) Tj ET
+BT /F1 10 Tf 50.00 503.00 Td () Tj ET
+BT /F1 10 Tf 50.00 495.00 Td () Tj ET
+BT /F2 15 Tf 50.00 487.00 Td (8. Ceshtja e programeve nga i njejti kanal) Tj ET
+BT /F1 10 Tf 50.00 468.00 Td () Tj ET
+BT /F1 10 Tf 50.00 463.00 Td () Tj ET
+BT /F1 10 Tf 50.00 455.00 Td (Implementimi aktual i lejon fqinjet nga i njejti kanal. Kjo ndodh sepse rregullat aktuale kontrollojne) Tj ET
+BT /F1 10 Tf 50.00 441.00 Td (vetem kohen, jo channel_id.) Tj ET
+BT /F1 10 Tf 50.00 427.00 Td () Tj ET
+BT /F1 10 Tf 50.00 419.00 Td (Kjo eshte nje pike modelimi me rendesi:) Tj ET
+BT /F1 10 Tf 50.00 405.00 Td () Tj ET
+BT /F1 10 Tf 62.00 397.00 Td (- nese fqinjesia nenkupton vetem afersi kohore, atehere programet nga i njejti kanal mund te lejohen;) Tj ET
+BT /F1 10 Tf 62.00 383.00 Td (- nese fqinjesia perdoret per swap real mes alternativave televizive, atehere shpesh ka me shume) Tj ET
+BT /F1 10 Tf 62.00 369.00 Td (  kuptim qe programet nga i njejti kanal te perjashtohen.) Tj ET
+BT /F1 10 Tf 50.00 355.00 Td () Tj ET
+BT /F1 10 Tf 50.00 347.00 Td (Ne kete faze, valido.py i raporton fqinjet nga i njejti kanal si informacion, por nuk i trajton si) Tj ET
+BT /F1 10 Tf 50.00 333.00 Td (gabim.) Tj ET
+BT /F1 10 Tf 50.00 319.00 Td () Tj ET
+BT /F1 10 Tf 50.00 311.00 Td () Tj ET
+BT /F2 15 Tf 50.00 303.00 Td (9. Formati i output-it) Tj ET
+BT /F1 10 Tf 50.00 284.00 Td () Tj ET
+BT /F1 10 Tf 50.00 279.00 Td () Tj ET
+BT /F1 10 Tf 50.00 271.00 Td (Output-i ruhet ne folderin output/.) Tj ET
+BT /F1 10 Tf 50.00 257.00 Td () Tj ET
+BT /F1 10 Tf 50.00 249.00 Td (Emrat jane te shkurter dhe deterministike:) Tj ET
+BT /F1 10 Tf 50.00 235.00 Td () Tj ET
+BT /F1 8 Tf 50.00 227.00 Td () Tj ET
+BT /F3 8 Tf 50.00 221.00 Td (toy_basic.json) Tj ET
+BT /F3 8 Tf 50.00 210.00 Td (toy_advanced_delta30.json) Tj ET
+BT /F1 8 Tf 50.00 199.00 Td () Tj ET
+BT /F1 10 Tf 50.00 193.00 Td () Tj ET
+BT /F1 10 Tf 50.00 185.00 Td (Struktura kryesore e output-it:) Tj ET
+BT /F1 10 Tf 50.00 171.00 Td () Tj ET
+BT /F1 8 Tf 50.00 163.00 Td () Tj ET
+BT /F3 8 Tf 50.00 157.00 Td ({) Tj ET
+BT /F3 8 Tf 50.00 146.00 Td (  "instance": "toy.json",) Tj ET
+BT /F3 8 Tf 50.00 135.00 Td (  "variant": "advanced",) Tj ET
+BT /F3 8 Tf 50.00 124.00 Td (  "delta": 30,) Tj ET
+BT /F3 8 Tf 50.00 113.00 Td (  "program_count": 5,) Tj ET
+BT /F3 8 Tf 50.00 102.00 Td (  "statistics": {) Tj ET
+BT /F3 8 Tf 50.00 91.00 Td (    "max_neighbors": 1,) Tj ET
+BT /F3 8 Tf 50.00 80.00 Td (    "min_neighbors": 0,) Tj ET
+BT /F3 8 Tf 50.00 69.00 Td (    "avg_neighbors": 0.6) Tj ET
+BT /F3 8 Tf 50.00 58.00 Td (  },) Tj ET
+BT /F1 9 Tf 500.00 30.00 Td (Page 4 / 8) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 3710 >>
+stream
+BT /F3 8 Tf 50.00 784.00 Td (  "validation": {) Tj ET
+BT /F3 8 Tf 50.00 773.00 Td (    "valid": true,) Tj ET
+BT /F3 8 Tf 50.00 762.00 Td (    "errors": []) Tj ET
+BT /F3 8 Tf 50.00 751.00 Td (  },) Tj ET
+BT /F3 8 Tf 50.00 740.00 Td (  "programs": [) Tj ET
+BT /F3 8 Tf 50.00 729.00 Td (    {) Tj ET
+BT /F3 8 Tf 50.00 718.00 Td (      "index": 0,) Tj ET
+BT /F3 8 Tf 50.00 707.00 Td (      "program_id": "n1",) Tj ET
+BT /F3 8 Tf 50.00 696.00 Td (      "channel_id": 0,) Tj ET
+BT /F3 8 Tf 50.00 685.00 Td (      "start": 540,) Tj ET
+BT /F3 8 Tf 50.00 674.00 Td (      "end": 600,) Tj ET
+BT /F3 8 Tf 50.00 663.00 Td (      "genre": "news",) Tj ET
+BT /F3 8 Tf 50.00 652.00 Td (      "score": 80) Tj ET
+BT /F3 8 Tf 50.00 641.00 Td (    }) Tj ET
+BT /F3 8 Tf 50.00 630.00 Td (  ],) Tj ET
+BT /F3 8 Tf 50.00 619.00 Td (  "neighbor_indices": [) Tj ET
+BT /F3 8 Tf 50.00 608.00 Td (    [1],) Tj ET
+BT /F3 8 Tf 50.00 597.00 Td (    [],) Tj ET
+BT /F3 8 Tf 50.00 586.00 Td (    [3]) Tj ET
+BT /F3 8 Tf 50.00 575.00 Td (  ]) Tj ET
+BT /F3 8 Tf 50.00 564.00 Td (}) Tj ET
+BT /F1 8 Tf 50.00 553.00 Td () Tj ET
+BT /F1 10 Tf 50.00 547.00 Td () Tj ET
+BT /F1 10 Tf 50.00 539.00 Td (Fusha programs sherben per te interpretuar indekset. Fusha neighbor_indices eshte vektori kryesor i) Tj ET
+BT /F1 10 Tf 50.00 525.00 Td (fqinjeve.) Tj ET
+BT /F1 10 Tf 50.00 511.00 Td () Tj ET
+BT /F1 10 Tf 50.00 503.00 Td () Tj ET
+BT /F2 15 Tf 50.00 495.00 Td (10. Statistikat) Tj ET
+BT /F1 10 Tf 50.00 476.00 Td () Tj ET
+BT /F1 10 Tf 50.00 471.00 Td () Tj ET
+BT /F1 10 Tf 50.00 463.00 Td (Per secilin run llogariten:) Tj ET
+BT /F1 10 Tf 50.00 449.00 Td () Tj ET
+BT /F1 10 Tf 62.00 441.00 Td (- max_neighbors: numri maksimal i fqinjeve qe ka ndonje program;) Tj ET
+BT /F1 10 Tf 62.00 427.00 Td (- min_neighbors: numri minimal i fqinjeve qe ka ndonje program;) Tj ET
+BT /F1 10 Tf 62.00 413.00 Td (- avg_neighbors: mesatarja e fqinjeve per program.) Tj ET
+BT /F1 10 Tf 50.00 399.00 Td () Tj ET
+BT /F1 10 Tf 50.00 391.00 Td (Shembull:) Tj ET
+BT /F1 10 Tf 50.00 377.00 Td () Tj ET
+BT /F1 8 Tf 50.00 369.00 Td () Tj ET
+BT /F3 8 Tf 50.00 363.00 Td (neighbor counts = [1, 0, 1, 1, 0]) Tj ET
+BT /F1 8 Tf 50.00 352.00 Td () Tj ET
+BT /F1 10 Tf 50.00 346.00 Td () Tj ET
+BT /F1 10 Tf 50.00 338.00 Td (atehere:) Tj ET
+BT /F1 10 Tf 50.00 324.00 Td () Tj ET
+BT /F1 8 Tf 50.00 316.00 Td () Tj ET
+BT /F3 8 Tf 50.00 310.00 Td (max = 1) Tj ET
+BT /F3 8 Tf 50.00 299.00 Td (min = 0) Tj ET
+BT /F3 8 Tf 50.00 288.00 Td (avg = \(1 + 0 + 1 + 1 + 0\) / 5 = 0.6) Tj ET
+BT /F1 8 Tf 50.00 277.00 Td () Tj ET
+BT /F1 10 Tf 50.00 271.00 Td () Tj ET
+BT /F1 10 Tf 50.00 263.00 Td () Tj ET
+BT /F2 15 Tf 50.00 255.00 Td (11. Matja e memories) Tj ET
+BT /F1 10 Tf 50.00 236.00 Td () Tj ET
+BT /F1 10 Tf 50.00 231.00 Td () Tj ET
+BT /F1 10 Tf 50.00 223.00 Td (main.py perdor tracemalloc per te matur memorien gjate ekzekutimit.) Tj ET
+BT /F1 10 Tf 50.00 209.00 Td () Tj ET
+BT /F1 10 Tf 50.00 201.00 Td (Ne console shfaqet:) Tj ET
+BT /F1 10 Tf 50.00 187.00 Td () Tj ET
+BT /F1 8 Tf 50.00 179.00 Td () Tj ET
+BT /F3 8 Tf 50.00 173.00 Td (--- Memory ---) Tj ET
+BT /F3 8 Tf 50.00 162.00 Td (Instance file size: 1.57 MB) Tj ET
+BT /F3 8 Tf 50.00 151.00 Td (Output file size: 12.44 MB) Tj ET
+BT /F3 8 Tf 50.00 140.00 Td (Current memory: 85.32 MB) Tj ET
+BT /F3 8 Tf 50.00 129.00 Td (Peak memory: 143.77 MB) Tj ET
+BT /F1 8 Tf 50.00 118.00 Td () Tj ET
+BT /F1 10 Tf 50.00 112.00 Td () Tj ET
+BT /F1 10 Tf 50.00 104.00 Td (Kuptimi:) Tj ET
+BT /F1 10 Tf 50.00 90.00 Td () Tj ET
+BT /F1 10 Tf 62.00 82.00 Td (- Instance file size: madhesia e JSON-it input ne disk;) Tj ET
+BT /F1 10 Tf 62.00 68.00 Td (- Output file size: madhesia e output-it te gjeneruar ne disk;) Tj ET
+BT /F1 9 Tf 500.00 30.00 Td (Page 5 / 8) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3584 >>
+stream
+BT /F1 10 Tf 62.00 784.00 Td (- Current memory: memoria qe programi po mban ne momentin e matjes;) Tj ET
+BT /F1 10 Tf 62.00 770.00 Td (- Peak memory: maksimumi i memories se perdorur gjate ekzekutimit.) Tj ET
+BT /F1 10 Tf 50.00 756.00 Td () Tj ET
+BT /F1 10 Tf 50.00 748.00 Td (Per raportim, Peak memory eshte metrika me e rendesishme, sepse tregon kulmin e memories qe kerkohet) Tj ET
+BT /F1 10 Tf 50.00 734.00 Td (per ate instance.) Tj ET
+BT /F1 10 Tf 50.00 720.00 Td () Tj ET
+BT /F1 10 Tf 50.00 712.00 Td () Tj ET
+BT /F2 15 Tf 50.00 704.00 Td (12. Validimi) Tj ET
+BT /F1 10 Tf 50.00 685.00 Td () Tj ET
+BT /F1 10 Tf 50.00 680.00 Td () Tj ET
+BT /F1 10 Tf 50.00 672.00 Td (Validimi kryhet ne dy nivele.) Tj ET
+BT /F1 10 Tf 50.00 658.00 Td () Tj ET
+BT /F2 12 Tf 50.00 650.00 Td (12.1 Validimi brenda main.py) Tj ET
+BT /F1 10 Tf 50.00 634.00 Td () Tj ET
+BT /F1 10 Tf 50.00 631.00 Td () Tj ET
+BT /F1 10 Tf 50.00 623.00 Td (Ky validim kontrollon qe:) Tj ET
+BT /F1 10 Tf 50.00 609.00 Td () Tj ET
+BT /F1 10 Tf 62.00 601.00 Td (- gjatesia e neighbor_indices te jete e barabarte me numrin e programeve;) Tj ET
+BT /F1 10 Tf 62.00 587.00 Td (- indekset e fqinjeve te jene numerike;) Tj ET
+BT /F1 10 Tf 62.00 573.00 Td (- indekset te jene brenda intervalit valid;) Tj ET
+BT /F1 10 Tf 62.00 559.00 Td (- programi te mos jete fqinj me vetveten;) Tj ET
+BT /F1 10 Tf 62.00 545.00 Td (- rregullat e variantit Basic ose Advanced te respektohen.) Tj ET
+BT /F1 10 Tf 50.00 531.00 Td () Tj ET
+BT /F2 12 Tf 50.00 523.00 Td (12.2 Validimi i avancuar me valido.py) Tj ET
+BT /F1 10 Tf 50.00 507.00 Td () Tj ET
+BT /F1 10 Tf 50.00 504.00 Td () Tj ET
+BT /F1 10 Tf 50.00 496.00 Td (valido.py ekzekutohet ndaras:) Tj ET
+BT /F1 10 Tf 50.00 482.00 Td () Tj ET
+BT /F1 8 Tf 50.00 474.00 Td () Tj ET
+BT /F3 8 Tf 50.00 468.00 Td (python valido.py) Tj ET
+BT /F1 8 Tf 50.00 457.00 Td () Tj ET
+BT /F1 10 Tf 50.00 451.00 Td () Tj ET
+BT /F1 10 Tf 50.00 443.00 Td (Ai ofron 5 menyra validimi:) Tj ET
+BT /F1 10 Tf 50.00 429.00 Td () Tj ET
+BT /F1 10 Tf 50.00 421.00 Td (1. raport i vogel per nje program specifik;) Tj ET
+BT /F1 10 Tf 50.00 407.00 Td (2. timeline tekstual;) Tj ET
+BT /F1 10 Tf 50.00 393.00 Td (3. CSV ne validation_reports/;) Tj ET
+BT /F1 10 Tf 50.00 379.00 Td (4. validim automatik i gjithe output-it;) Tj ET
+BT /F1 10 Tf 50.00 365.00 Td (5. raport vizual HTML.) Tj ET
+BT /F1 10 Tf 50.00 351.00 Td () Tj ET
+BT /F1 10 Tf 50.00 343.00 Td (Raportet ruhen me emra te shkurter:) Tj ET
+BT /F1 10 Tf 50.00 329.00 Td () Tj ET
+BT /F1 8 Tf 50.00 321.00 Td () Tj ET
+BT /F3 8 Tf 50.00 315.00 Td (toy_prog_0_summary.txt) Tj ET
+BT /F3 8 Tf 50.00 304.00 Td (toy_prog_0_timeline.txt) Tj ET
+BT /F3 8 Tf 50.00 293.00 Td (toy_prog_0_candidates.csv) Tj ET
+BT /F3 8 Tf 50.00 282.00 Td (toy_prog_0_visual.html) Tj ET
+BT /F3 8 Tf 50.00 271.00 Td (toy_automatic.txt) Tj ET
+BT /F1 8 Tf 50.00 260.00 Td () Tj ET
+BT /F1 10 Tf 50.00 254.00 Td () Tj ET
+BT /F1 10 Tf 50.00 246.00 Td (Validimi automatik eshte me i forte sepse rinderton fqinjet e pritur sipas rregullave dhe i krahason me) Tj ET
+BT /F1 10 Tf 50.00 232.00 Td (output-in. Keshtu mund te identifikoje:) Tj ET
+BT /F1 10 Tf 50.00 218.00 Td () Tj ET
+BT /F1 10 Tf 62.00 210.00 Td (- fqinje qe mungojne;) Tj ET
+BT /F1 10 Tf 62.00 196.00 Td (- fqinje ekstra;) Tj ET
+BT /F1 10 Tf 62.00 182.00 Td (- indekse invalide;) Tj ET
+BT /F1 10 Tf 62.00 168.00 Td (- duplikate;) Tj ET
+BT /F1 10 Tf 62.00 154.00 Td (- renditje te ndryshme;) Tj ET
+BT /F1 10 Tf 62.00 140.00 Td (- fqinje nga i njejti kanal.) Tj ET
+BT /F1 10 Tf 50.00 126.00 Td () Tj ET
+BT /F1 9 Tf 500.00 30.00 Td (Page 6 / 8) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 3827 >>
+stream
+BT /F1 10 Tf 50.00 784.00 Td () Tj ET
+BT /F2 15 Tf 50.00 776.00 Td (13. Si ekzekutohet projekti) Tj ET
+BT /F1 10 Tf 50.00 757.00 Td () Tj ET
+BT /F1 10 Tf 50.00 752.00 Td () Tj ET
+BT /F1 10 Tf 50.00 744.00 Td (Per gjenerim te fqinjeve:) Tj ET
+BT /F1 10 Tf 50.00 730.00 Td () Tj ET
+BT /F1 8 Tf 50.00 722.00 Td () Tj ET
+BT /F3 8 Tf 50.00 716.00 Td (python main.py) Tj ET
+BT /F1 8 Tf 50.00 705.00 Td () Tj ET
+BT /F1 10 Tf 50.00 699.00 Td () Tj ET
+BT /F1 10 Tf 50.00 691.00 Td (Pastaj zgjidhet varianti:) Tj ET
+BT /F1 10 Tf 50.00 677.00 Td () Tj ET
+BT /F1 8 Tf 50.00 669.00 Td () Tj ET
+BT /F3 8 Tf 50.00 663.00 Td (1. Basic variant - only overlap) Tj ET
+BT /F3 8 Tf 50.00 652.00 Td (2. Advanced variant - future time-window) Tj ET
+BT /F1 8 Tf 50.00 641.00 Td () Tj ET
+BT /F1 10 Tf 50.00 635.00 Td () Tj ET
+BT /F1 10 Tf 50.00 627.00 Td (Dhe zgjidhet instanca:) Tj ET
+BT /F1 10 Tf 50.00 613.00 Td () Tj ET
+BT /F1 8 Tf 50.00 605.00 Td () Tj ET
+BT /F3 8 Tf 50.00 599.00 Td (0. Toy instance) Tj ET
+BT /F3 8 Tf 50.00 588.00 Td (1. croatia_tv) Tj ET
+BT /F3 8 Tf 50.00 577.00 Td (2. germany_tv) Tj ET
+BT /F3 8 Tf 50.00 566.00 Td (3. kosovo_tv) Tj ET
+BT /F3 8 Tf 50.00 555.00 Td (4. netherlands_tv) Tj ET
+BT /F3 8 Tf 50.00 544.00 Td (5. uk_tv) Tj ET
+BT /F3 8 Tf 50.00 533.00 Td (6. usa_tv) Tj ET
+BT /F3 8 Tf 50.00 522.00 Td (7. australia_iptv) Tj ET
+BT /F3 8 Tf 50.00 511.00 Td (8. france_iptv) Tj ET
+BT /F3 8 Tf 50.00 500.00 Td (9. spain_iptv) Tj ET
+BT /F3 8 Tf 50.00 489.00 Td (10. uk_iptv) Tj ET
+BT /F3 8 Tf 50.00 478.00 Td (11. us_iptv) Tj ET
+BT /F3 8 Tf 50.00 467.00 Td (12. singapore_pw) Tj ET
+BT /F3 8 Tf 50.00 456.00 Td (13. canada_pw) Tj ET
+BT /F3 8 Tf 50.00 445.00 Td (14. china_pw) Tj ET
+BT /F3 8 Tf 50.00 434.00 Td (15. youtube_gold) Tj ET
+BT /F3 8 Tf 50.00 423.00 Td (16. youtube_premium) Tj ET
+BT /F1 8 Tf 50.00 412.00 Td () Tj ET
+BT /F1 10 Tf 50.00 406.00 Td () Tj ET
+BT /F1 10 Tf 50.00 398.00 Td (Per validim:) Tj ET
+BT /F1 10 Tf 50.00 384.00 Td () Tj ET
+BT /F1 8 Tf 50.00 376.00 Td () Tj ET
+BT /F3 8 Tf 50.00 370.00 Td (python valido.py) Tj ET
+BT /F1 8 Tf 50.00 359.00 Td () Tj ET
+BT /F1 10 Tf 50.00 353.00 Td () Tj ET
+BT /F1 10 Tf 50.00 345.00 Td () Tj ET
+BT /F2 15 Tf 50.00 337.00 Td (14. Kompleksiteti) Tj ET
+BT /F1 10 Tf 50.00 318.00 Td () Tj ET
+BT /F1 10 Tf 50.00 313.00 Td () Tj ET
+BT /F1 10 Tf 50.00 305.00 Td (Implementimi aktual ne basic_neighbors.py dhe advanced_neighbors.py perdor dy cikle te brendshme:) Tj ET
+BT /F1 10 Tf 50.00 291.00 Td () Tj ET
+BT /F1 8 Tf 50.00 283.00 Td () Tj ET
+BT /F3 8 Tf 50.00 277.00 Td (for each program A:) Tj ET
+BT /F3 8 Tf 50.00 266.00 Td (    for each program B:) Tj ET
+BT /F3 8 Tf 50.00 255.00 Td (        kontrollo nese B eshte fqinj i A) Tj ET
+BT /F1 8 Tf 50.00 244.00 Td () Tj ET
+BT /F1 10 Tf 50.00 238.00 Td () Tj ET
+BT /F1 10 Tf 50.00 230.00 Td (Per n programe, kompleksiteti kohor eshte:) Tj ET
+BT /F1 10 Tf 50.00 216.00 Td () Tj ET
+BT /F1 8 Tf 50.00 208.00 Td () Tj ET
+BT /F3 8 Tf 50.00 202.00 Td (O\(n^2\)) Tj ET
+BT /F1 8 Tf 50.00 191.00 Td () Tj ET
+BT /F1 10 Tf 50.00 185.00 Td () Tj ET
+BT /F1 10 Tf 50.00 177.00 Td (Kjo eshte e thjeshte per t'u kuptuar dhe e mire si baseline, por mund te behet e shtrenjte per instanca) Tj ET
+BT /F1 10 Tf 50.00 163.00 Td (shume te medha.) Tj ET
+BT /F1 10 Tf 50.00 149.00 Td () Tj ET
+BT /F1 10 Tf 50.00 141.00 Td (Kompleksiteti memorik varet nga:) Tj ET
+BT /F1 10 Tf 50.00 127.00 Td () Tj ET
+BT /F1 10 Tf 62.00 119.00 Td (- lista e programeve;) Tj ET
+BT /F1 10 Tf 62.00 105.00 Td (- vektori neighbor_indices;) Tj ET
+BT /F1 10 Tf 62.00 91.00 Td (- numri total i fqinjeve te ruajtur.) Tj ET
+BT /F1 10 Tf 50.00 77.00 Td () Tj ET
+BT /F1 10 Tf 50.00 69.00 Td (Nese E eshte numri total i lidhjeve te fqinjesise, memoria per output-in eshte afersisht:) Tj ET
+BT /F1 10 Tf 50.00 55.00 Td () Tj ET
+BT /F1 9 Tf 500.00 30.00 Td (Page 7 / 8) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 3620 >>
+stream
+BT /F1 8 Tf 50.00 784.00 Td () Tj ET
+BT /F3 8 Tf 50.00 778.00 Td (O\(n + E\)) Tj ET
+BT /F1 8 Tf 50.00 767.00 Td () Tj ET
+BT /F1 10 Tf 50.00 761.00 Td () Tj ET
+BT /F1 10 Tf 50.00 753.00 Td () Tj ET
+BT /F2 15 Tf 50.00 745.00 Td (15. Mundesi optimizimi) Tj ET
+BT /F1 10 Tf 50.00 726.00 Td () Tj ET
+BT /F1 10 Tf 50.00 721.00 Td () Tj ET
+BT /F1 10 Tf 50.00 713.00 Td (Nje zgjidhje me efikase mund te perdore faktin qe programet jane te sortuara sipas start.) Tj ET
+BT /F1 10 Tf 50.00 699.00 Td () Tj ET
+BT /F1 10 Tf 50.00 691.00 Td (Per secilin program A, nuk ka nevoje te kontrollohen te gjitha programet B. Mund te kontrollohen vetem) Tj ET
+BT /F1 10 Tf 50.00 677.00 Td (programet qe fillojne ne intervalin relevant:) Tj ET
+BT /F1 10 Tf 50.00 663.00 Td () Tj ET
+BT /F1 10 Tf 62.00 655.00 Td (- Basic: programet qe fillojne para A.end;) Tj ET
+BT /F1 10 Tf 62.00 641.00 Td (- Advanced: programet qe fillojne deri ne A.end + Delta.) Tj ET
+BT /F1 10 Tf 50.00 627.00 Td () Tj ET
+BT /F1 10 Tf 50.00 619.00 Td (Me binary search mund te gjendet kufiri i djathte i ketij intervali. Keshtu shmangen krahasimet e) Tj ET
+BT /F1 10 Tf 50.00 605.00 Td (panevojshme me programe qe fillojne shume vone.) Tj ET
+BT /F1 10 Tf 50.00 591.00 Td () Tj ET
+BT /F1 10 Tf 50.00 583.00 Td (Kompleksiteti praktik mund te ulet ndjeshem, edhe pse ne rastin me te keq output-i mund te jete ende i) Tj ET
+BT /F1 10 Tf 50.00 569.00 Td (madh.) Tj ET
+BT /F1 10 Tf 50.00 555.00 Td () Tj ET
+BT /F1 10 Tf 50.00 547.00 Td () Tj ET
+BT /F2 15 Tf 50.00 539.00 Td (16. Kufizime dhe vendime te hapura) Tj ET
+BT /F1 10 Tf 50.00 520.00 Td () Tj ET
+BT /F1 10 Tf 50.00 515.00 Td () Tj ET
+BT /F1 10 Tf 50.00 507.00 Td (Keto jane pikat qe duhen sqaruar ose mund te permiresohen:) Tj ET
+BT /F1 10 Tf 50.00 493.00 Td () Tj ET
+BT /F1 10 Tf 62.00 485.00 Td (- A duhet Basic te jete strikt vetem overlap, pa kushtin candidate.start >= current.start?) Tj ET
+BT /F1 10 Tf 62.00 471.00 Td (- A duhet te ndalohen fqinjet nga i njejti kanal?) Tj ET
+BT /F1 10 Tf 62.00 457.00 Td (- A duhet te ekzekutohen automatikisht te gjitha instancat per te dy variantet?) Tj ET
+BT /F1 10 Tf 62.00 443.00 Td (- A duhet te ruhet memoria edhe brenda JSON output-it, jo vetem ne console?) Tj ET
+BT /F1 10 Tf 62.00 429.00 Td (- A duhet te shtohet raport i pergjithshem per te gjitha instancat, me kohe/memorie/statistika ne nje) Tj ET
+BT /F1 10 Tf 62.00 415.00 Td (  CSV te vetem?) Tj ET
+BT /F1 10 Tf 50.00 401.00 Td () Tj ET
+BT /F1 10 Tf 50.00 393.00 Td (Keto pika jane te rendesishme per fazen studimore dhe per raportim final.) Tj ET
+BT /F1 10 Tf 50.00 379.00 Td () Tj ET
+BT /F1 10 Tf 50.00 371.00 Td () Tj ET
+BT /F2 15 Tf 50.00 363.00 Td (17. Perfundim) Tj ET
+BT /F1 10 Tf 50.00 344.00 Td () Tj ET
+BT /F1 10 Tf 50.00 339.00 Td () Tj ET
+BT /F1 10 Tf 50.00 331.00 Td (Projekti definon nje metode te qarte per gjenerimin e fqinjeve te programeve televizive nga instance) Tj ET
+BT /F1 10 Tf 50.00 317.00 Td (JSON. Ai ofron dy variante, Basic dhe Advanced, gjeneron output te strukturuar, llogarit statistika) Tj ET
+BT /F1 10 Tf 50.00 303.00 Td (kryesore, mat memorien e ekzekutimit dhe mundeson validim manual, automatik dhe vizual.) Tj ET
+BT /F1 10 Tf 50.00 289.00 Td () Tj ET
+BT /F1 10 Tf 50.00 281.00 Td (Zgjidhja aktuale eshte e pershtatshme si baze studimore, sepse eshte transparente, e testueshme dhe e) Tj ET
+BT /F1 10 Tf 50.00 267.00 Td (lehte per t'u zgjeruar. Hapi tjeter natyral eshte optimizimi i algoritmit per instanca te medha dhe) Tj ET
+BT /F1 10 Tf 50.00 253.00 Td (automatizimi i ekzekutimit per te gjitha instancat e datasetit.) Tj ET
+BT /F1 9 Tf 500.00 30.00 Td (Page 8 / 8) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 20 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] /Count 8 >>
+endobj
+21 0 obj
+<< /Type /Catalog /Pages 20 0 R >>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000000222 00000 n 
+0000004296 00000 n 
+0000004443 00000 n 
+0000008399 00000 n 
+0000008546 00000 n 
+0000012717 00000 n 
+0000012864 00000 n 
+0000017107 00000 n 
+0000017256 00000 n 
+0000021019 00000 n 
+0000021168 00000 n 
+0000024805 00000 n 
+0000024954 00000 n 
+0000028834 00000 n 
+0000028983 00000 n 
+0000032656 00000 n 
+0000032805 00000 n 
+0000032910 00000 n 
+trailer
+<< /Size 22 /Root 21 0 R >>
+startxref
+32961
+%%EOF
