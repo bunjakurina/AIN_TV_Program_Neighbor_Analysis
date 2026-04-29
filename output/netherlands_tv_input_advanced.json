@@ -1,0 +1,3234 @@
+{
+  "instance": "netherlands_tv_input.json",
+  "variant": "advanced",
+  "delta": null,
+  "program_count": 180,
+  "statistics": {
+    "max_neighbors": 13.0,
+    "min_neighbors": 0.0,
+    "avg_neighbors": 5.866666666666666
+  },
+  "neighbor_counts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    7,
+    10,
+    10,
+    10,
+    10,
+    12,
+    12,
+    0,
+    2,
+    2,
+    8,
+    10,
+    1,
+    1,
+    2,
+    2,
+    2,
+    11,
+    11,
+    11,
+    12,
+    12,
+    0,
+    3,
+    9,
+    9,
+    9,
+    9,
+    3,
+    7,
+    0,
+    10,
+    10,
+    10,
+    1,
+    1,
+    4,
+    10,
+    10,
+    0,
+    2,
+    2,
+    12,
+    9,
+    9,
+    0,
+    9,
+    9,
+    9,
+    2,
+    2,
+    7,
+    7,
+    7,
+    0,
+    6,
+    3,
+    3,
+    10,
+    10,
+    7,
+    1,
+    1,
+    8,
+    2,
+    2,
+    2,
+    6,
+    6,
+    6,
+    11,
+    11,
+    2,
+    2,
+    2,
+    9,
+    9,
+    1,
+    1,
+    4,
+    12,
+    12,
+    9,
+    9,
+    1,
+    1,
+    5,
+    5,
+    6,
+    5,
+    9,
+    9,
+    9,
+    9,
+    1,
+    1,
+    3,
+    9,
+    1,
+    1,
+    4,
+    4,
+    10,
+    1,
+    1,
+    5,
+    11,
+    11,
+    10,
+    10,
+    2,
+    9,
+    9,
+    9,
+    9,
+    9,
+    6,
+    0,
+    4,
+    4,
+    8,
+    0,
+    2,
+    11,
+    11,
+    9,
+    3,
+    3,
+    3,
+    3,
+    7,
+    7,
+    7,
+    7,
+    7,
+    9,
+    9,
+    9,
+    1,
+    10,
+    8,
+    2,
+    2,
+    2,
+    7,
+    1,
+    1,
+    5,
+    8,
+    8,
+    8,
+    8,
+    8,
+    13,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    7,
+    7,
+    1,
+    1,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    3,
+    3,
+    3,
+    3
+  ],
+  "validation": {
+    "valid": true,
+    "errors": []
+  },
+  "programs": [
+    {
+      "index": 0,
+      "program_id": "NPO1_1",
+      "channel_id": 0,
+      "start": 360,
+      "end": 390,
+      "genre": "kids",
+      "score": 93
+    },
+    {
+      "index": 1,
+      "program_id": "NPO2_1",
+      "channel_id": 1,
+      "start": 360,
+      "end": 390,
+      "genre": "sports",
+      "score": 41
+    },
+    {
+      "index": 2,
+      "program_id": "NPO3_1",
+      "channel_id": 2,
+      "start": 360,
+      "end": 390,
+      "genre": "kids",
+      "score": 66
+    },
+    {
+      "index": 3,
+      "program_id": "RTL4_1",
+      "channel_id": 3,
+      "start": 360,
+      "end": 390,
+      "genre": "sports",
+      "score": 98
+    },
+    {
+      "index": 4,
+      "program_id": "RTL5_1",
+      "channel_id": 4,
+      "start": 360,
+      "end": 390,
+      "genre": "news",
+      "score": 94
+    },
+    {
+      "index": 5,
+      "program_id": "Euronews_1",
+      "channel_id": 11,
+      "start": 360,
+      "end": 420,
+      "genre": "talk",
+      "score": 95
+    },
+    {
+      "index": 6,
+      "program_id": "RTL7_1",
+      "channel_id": 5,
+      "start": 360,
+      "end": 450,
+      "genre": "comedy",
+      "score": 45
+    },
+    {
+      "index": 7,
+      "program_id": "SBS6_1",
+      "channel_id": 6,
+      "start": 360,
+      "end": 450,
+      "genre": "kids",
+      "score": 66
+    },
+    {
+      "index": 8,
+      "program_id": "Veronica_1",
+      "channel_id": 8,
+      "start": 360,
+      "end": 450,
+      "genre": "news",
+      "score": 47
+    },
+    {
+      "index": 9,
+      "program_id": "Canvas_1",
+      "channel_id": 10,
+      "start": 360,
+      "end": 450,
+      "genre": "kids",
+      "score": 85
+    },
+    {
+      "index": 10,
+      "program_id": "Net5_1",
+      "channel_id": 7,
+      "start": 360,
+      "end": 480,
+      "genre": "documentary",
+      "score": 50
+    },
+    {
+      "index": 11,
+      "program_id": "Eén_1",
+      "channel_id": 9,
+      "start": 360,
+      "end": 480,
+      "genre": "sports",
+      "score": 87
+    },
+    {
+      "index": 12,
+      "program_id": "NPO3_2",
+      "channel_id": 2,
+      "start": 390,
+      "end": 420,
+      "genre": "news",
+      "score": 41
+    },
+    {
+      "index": 13,
+      "program_id": "NPO2_2",
+      "channel_id": 1,
+      "start": 390,
+      "end": 450,
+      "genre": "kids",
+      "score": 83
+    },
+    {
+      "index": 14,
+      "program_id": "RTL4_2",
+      "channel_id": 3,
+      "start": 390,
+      "end": 450,
+      "genre": "movie",
+      "score": 54
+    },
+    {
+      "index": 15,
+      "program_id": "NPO1_2",
+      "channel_id": 0,
+      "start": 390,
+      "end": 480,
+      "genre": "news",
+      "score": 92
+    },
+    {
+      "index": 16,
+      "program_id": "RTL5_2",
+      "channel_id": 4,
+      "start": 390,
+      "end": 510,
+      "genre": "kids",
+      "score": 43
+    },
+    {
+      "index": 17,
+      "program_id": "NPO3_3",
+      "channel_id": 2,
+      "start": 420,
+      "end": 450,
+      "genre": "sports",
+      "score": 75
+    },
+    {
+      "index": 18,
+      "program_id": "Euronews_2",
+      "channel_id": 11,
+      "start": 420,
+      "end": 450,
+      "genre": "sports",
+      "score": 76
+    },
+    {
+      "index": 19,
+      "program_id": "NPO2_3",
+      "channel_id": 1,
+      "start": 450,
+      "end": 480,
+      "genre": "kids",
+      "score": 50
+    },
+    {
+      "index": 20,
+      "program_id": "RTL7_2",
+      "channel_id": 5,
+      "start": 450,
+      "end": 480,
+      "genre": "news",
+      "score": 54
+    },
+    {
+      "index": 21,
+      "program_id": "Canvas_2",
+      "channel_id": 10,
+      "start": 450,
+      "end": 480,
+      "genre": "reality",
+      "score": 96
+    },
+    {
+      "index": 22,
+      "program_id": "NPO3_4",
+      "channel_id": 2,
+      "start": 450,
+      "end": 540,
+      "genre": "news",
+      "score": 92
+    },
+    {
+      "index": 23,
+      "program_id": "RTL4_3",
+      "channel_id": 3,
+      "start": 450,
+      "end": 540,
+      "genre": "drama",
+      "score": 98
+    },
+    {
+      "index": 24,
+      "program_id": "Euronews_3",
+      "channel_id": 11,
+      "start": 450,
+      "end": 540,
+      "genre": "sports",
+      "score": 73
+    },
+    {
+      "index": 25,
+      "program_id": "SBS6_2",
+      "channel_id": 6,
+      "start": 450,
+      "end": 570,
+      "genre": "movie",
+      "score": 53
+    },
+    {
+      "index": 26,
+      "program_id": "Veronica_2",
+      "channel_id": 8,
+      "start": 450,
+      "end": 570,
+      "genre": "comedy",
+      "score": 43
+    },
+    {
+      "index": 27,
+      "program_id": "NPO2_4",
+      "channel_id": 1,
+      "start": 480,
+      "end": 510,
+      "genre": "movie",
+      "score": 84
+    },
+    {
+      "index": 28,
+      "program_id": "Eén_2",
+      "channel_id": 9,
+      "start": 480,
+      "end": 540,
+      "genre": "talk",
+      "score": 80
+    },
+    {
+      "index": 29,
+      "program_id": "Canvas_3",
+      "channel_id": 10,
+      "start": 480,
+      "end": 570,
+      "genre": "kids",
+      "score": 45
+    },
+    {
+      "index": 30,
+      "program_id": "NPO1_3",
+      "channel_id": 0,
+      "start": 480,
+      "end": 600,
+      "genre": "news",
+      "score": 76
+    },
+    {
+      "index": 31,
+      "program_id": "RTL7_3",
+      "channel_id": 5,
+      "start": 480,
+      "end": 600,
+      "genre": "movie",
+      "score": 46
+    },
+    {
+      "index": 32,
+      "program_id": "Net5_2",
+      "channel_id": 7,
+      "start": 480,
+      "end": 600,
+      "genre": "music",
+      "score": 91
+    },
+    {
+      "index": 33,
+      "program_id": "RTL5_3",
+      "channel_id": 4,
+      "start": 510,
+      "end": 570,
+      "genre": "talk",
+      "score": 77
+    },
+    {
+      "index": 34,
+      "program_id": "NPO2_5",
+      "channel_id": 1,
+      "start": 510,
+      "end": 600,
+      "genre": "talk",
+      "score": 57
+    },
+    {
+      "index": 35,
+      "program_id": "NPO3_5",
+      "channel_id": 2,
+      "start": 540,
+      "end": 570,
+      "genre": "comedy",
+      "score": 54
+    },
+    {
+      "index": 36,
+      "program_id": "RTL4_4",
+      "channel_id": 3,
+      "start": 540,
+      "end": 630,
+      "genre": "comedy",
+      "score": 42
+    },
+    {
+      "index": 37,
+      "program_id": "Eén_3",
+      "channel_id": 9,
+      "start": 540,
+      "end": 630,
+      "genre": "movie",
+      "score": 72
+    },
+    {
+      "index": 38,
+      "program_id": "Euronews_4",
+      "channel_id": 11,
+      "start": 540,
+      "end": 660,
+      "genre": "kids",
+      "score": 47
+    },
+    {
+      "index": 39,
+      "program_id": "SBS6_3",
+      "channel_id": 6,
+      "start": 570,
+      "end": 600,
+      "genre": "news",
+      "score": 67
+    },
+    {
+      "index": 40,
+      "program_id": "Canvas_4",
+      "channel_id": 10,
+      "start": 570,
+      "end": 600,
+      "genre": "talk",
+      "score": 53
+    },
+    {
+      "index": 41,
+      "program_id": "NPO3_6",
+      "channel_id": 2,
+      "start": 570,
+      "end": 630,
+      "genre": "news",
+      "score": 60
+    },
+    {
+      "index": 42,
+      "program_id": "Veronica_3",
+      "channel_id": 8,
+      "start": 570,
+      "end": 660,
+      "genre": "news",
+      "score": 94
+    },
+    {
+      "index": 43,
+      "program_id": "RTL5_4",
+      "channel_id": 4,
+      "start": 570,
+      "end": 690,
+      "genre": "drama",
+      "score": 71
+    },
+    {
+      "index": 44,
+      "program_id": "Net5_3",
+      "channel_id": 7,
+      "start": 600,
+      "end": 630,
+      "genre": "music",
+      "score": 61
+    },
+    {
+      "index": 45,
+      "program_id": "RTL7_4",
+      "channel_id": 5,
+      "start": 600,
+      "end": 660,
+      "genre": "comedy",
+      "score": 56
+    },
+    {
+      "index": 46,
+      "program_id": "SBS6_4",
+      "channel_id": 6,
+      "start": 600,
+      "end": 660,
+      "genre": "news",
+      "score": 40
+    },
+    {
+      "index": 47,
+      "program_id": "NPO1_4",
+      "channel_id": 0,
+      "start": 600,
+      "end": 690,
+      "genre": "drama",
+      "score": 80
+    },
+    {
+      "index": 48,
+      "program_id": "NPO2_6",
+      "channel_id": 1,
+      "start": 600,
+      "end": 720,
+      "genre": "comedy",
+      "score": 72
+    },
+    {
+      "index": 49,
+      "program_id": "Canvas_5",
+      "channel_id": 10,
+      "start": 600,
+      "end": 720,
+      "genre": "movie",
+      "score": 68
+    },
+    {
+      "index": 50,
+      "program_id": "Net5_4",
+      "channel_id": 7,
+      "start": 630,
+      "end": 660,
+      "genre": "news",
+      "score": 95
+    },
+    {
+      "index": 51,
+      "program_id": "NPO3_7",
+      "channel_id": 2,
+      "start": 630,
+      "end": 750,
+      "genre": "sports",
+      "score": 97
+    },
+    {
+      "index": 52,
+      "program_id": "RTL4_5",
+      "channel_id": 3,
+      "start": 630,
+      "end": 750,
+      "genre": "drama",
+      "score": 92
+    },
+    {
+      "index": 53,
+      "program_id": "Eén_4",
+      "channel_id": 9,
+      "start": 630,
+      "end": 750,
+      "genre": "sports",
+      "score": 46
+    },
+    {
+      "index": 54,
+      "program_id": "RTL7_5",
+      "channel_id": 5,
+      "start": 660,
+      "end": 720,
+      "genre": "talk",
+      "score": 55
+    },
+    {
+      "index": 55,
+      "program_id": "Veronica_4",
+      "channel_id": 8,
+      "start": 660,
+      "end": 720,
+      "genre": "news",
+      "score": 40
+    },
+    {
+      "index": 56,
+      "program_id": "SBS6_5",
+      "channel_id": 6,
+      "start": 660,
+      "end": 780,
+      "genre": "drama",
+      "score": 57
+    },
+    {
+      "index": 57,
+      "program_id": "Net5_5",
+      "channel_id": 7,
+      "start": 660,
+      "end": 780,
+      "genre": "movie",
+      "score": 71
+    },
+    {
+      "index": 58,
+      "program_id": "Euronews_5",
+      "channel_id": 11,
+      "start": 660,
+      "end": 780,
+      "genre": "news",
+      "score": 77
+    },
+    {
+      "index": 59,
+      "program_id": "RTL5_5",
+      "channel_id": 4,
+      "start": 690,
+      "end": 720,
+      "genre": "movie",
+      "score": 92
+    },
+    {
+      "index": 60,
+      "program_id": "NPO1_5",
+      "channel_id": 0,
+      "start": 690,
+      "end": 780,
+      "genre": "documentary",
+      "score": 67
+    },
+    {
+      "index": 61,
+      "program_id": "RTL5_6",
+      "channel_id": 4,
+      "start": 720,
+      "end": 780,
+      "genre": "drama",
+      "score": 57
+    },
+    {
+      "index": 62,
+      "program_id": "RTL7_6",
+      "channel_id": 5,
+      "start": 720,
+      "end": 780,
+      "genre": "sports",
+      "score": 85
+    },
+    {
+      "index": 63,
+      "program_id": "NPO2_7",
+      "channel_id": 1,
+      "start": 720,
+      "end": 810,
+      "genre": "music",
+      "score": 61
+    },
+    {
+      "index": 64,
+      "program_id": "Canvas_6",
+      "channel_id": 10,
+      "start": 720,
+      "end": 810,
+      "genre": "movie",
+      "score": 87
+    },
+    {
+      "index": 65,
+      "program_id": "Veronica_5",
+      "channel_id": 8,
+      "start": 720,
+      "end": 840,
+      "genre": "kids",
+      "score": 94
+    },
+    {
+      "index": 66,
+      "program_id": "NPO3_8",
+      "channel_id": 2,
+      "start": 750,
+      "end": 780,
+      "genre": "news",
+      "score": 93
+    },
+    {
+      "index": 67,
+      "program_id": "Eén_5",
+      "channel_id": 9,
+      "start": 750,
+      "end": 780,
+      "genre": "news",
+      "score": 77
+    },
+    {
+      "index": 68,
+      "program_id": "RTL4_6",
+      "channel_id": 3,
+      "start": 750,
+      "end": 870,
+      "genre": "sports",
+      "score": 77
+    },
+    {
+      "index": 69,
+      "program_id": "NPO3_9",
+      "channel_id": 2,
+      "start": 780,
+      "end": 810,
+      "genre": "comedy",
+      "score": 66
+    },
+    {
+      "index": 70,
+      "program_id": "SBS6_6",
+      "channel_id": 6,
+      "start": 780,
+      "end": 810,
+      "genre": "kids",
+      "score": 79
+    },
+    {
+      "index": 71,
+      "program_id": "Net5_6",
+      "channel_id": 7,
+      "start": 780,
+      "end": 810,
+      "genre": "movie",
+      "score": 52
+    },
+    {
+      "index": 72,
+      "program_id": "NPO1_6",
+      "channel_id": 0,
+      "start": 780,
+      "end": 840,
+      "genre": "drama",
+      "score": 55
+    },
+    {
+      "index": 73,
+      "program_id": "RTL7_7",
+      "channel_id": 5,
+      "start": 780,
+      "end": 840,
+      "genre": "drama",
+      "score": 97
+    },
+    {
+      "index": 74,
+      "program_id": "Eén_6",
+      "channel_id": 9,
+      "start": 780,
+      "end": 840,
+      "genre": "movie",
+      "score": 61
+    },
+    {
+      "index": 75,
+      "program_id": "RTL5_7",
+      "channel_id": 4,
+      "start": 780,
+      "end": 870,
+      "genre": "news",
+      "score": 73
+    },
+    {
+      "index": 76,
+      "program_id": "Euronews_6",
+      "channel_id": 11,
+      "start": 780,
+      "end": 870,
+      "genre": "kids",
+      "score": 74
+    },
+    {
+      "index": 77,
+      "program_id": "NPO2_8",
+      "channel_id": 1,
+      "start": 810,
+      "end": 840,
+      "genre": "documentary",
+      "score": 56
+    },
+    {
+      "index": 78,
+      "program_id": "Net5_7",
+      "channel_id": 7,
+      "start": 810,
+      "end": 840,
+      "genre": "talk",
+      "score": 64
+    },
+    {
+      "index": 79,
+      "program_id": "Canvas_7",
+      "channel_id": 10,
+      "start": 810,
+      "end": 840,
+      "genre": "kids",
+      "score": 66
+    },
+    {
+      "index": 80,
+      "program_id": "NPO3_10",
+      "channel_id": 2,
+      "start": 810,
+      "end": 900,
+      "genre": "sports",
+      "score": 67
+    },
+    {
+      "index": 81,
+      "program_id": "SBS6_7",
+      "channel_id": 6,
+      "start": 810,
+      "end": 900,
+      "genre": "kids",
+      "score": 45
+    },
+    {
+      "index": 82,
+      "program_id": "NPO2_9",
+      "channel_id": 1,
+      "start": 840,
+      "end": 870,
+      "genre": "kids",
+      "score": 86
+    },
+    {
+      "index": 83,
+      "program_id": "Eén_7",
+      "channel_id": 9,
+      "start": 840,
+      "end": 870,
+      "genre": "sports",
+      "score": 68
+    },
+    {
+      "index": 84,
+      "program_id": "Veronica_6",
+      "channel_id": 8,
+      "start": 840,
+      "end": 900,
+      "genre": "reality",
+      "score": 43
+    },
+    {
+      "index": 85,
+      "program_id": "Net5_8",
+      "channel_id": 7,
+      "start": 840,
+      "end": 930,
+      "genre": "kids",
+      "score": 98
+    },
+    {
+      "index": 86,
+      "program_id": "Canvas_8",
+      "channel_id": 10,
+      "start": 840,
+      "end": 930,
+      "genre": "news",
+      "score": 44
+    },
+    {
+      "index": 87,
+      "program_id": "NPO1_7",
+      "channel_id": 0,
+      "start": 840,
+      "end": 960,
+      "genre": "music",
+      "score": 99
+    },
+    {
+      "index": 88,
+      "program_id": "RTL7_8",
+      "channel_id": 5,
+      "start": 840,
+      "end": 960,
+      "genre": "talk",
+      "score": 94
+    },
+    {
+      "index": 89,
+      "program_id": "NPO2_10",
+      "channel_id": 1,
+      "start": 870,
+      "end": 900,
+      "genre": "movie",
+      "score": 65
+    },
+    {
+      "index": 90,
+      "program_id": "Eén_8",
+      "channel_id": 9,
+      "start": 870,
+      "end": 900,
+      "genre": "movie",
+      "score": 71
+    },
+    {
+      "index": 91,
+      "program_id": "RTL4_7",
+      "channel_id": 3,
+      "start": 870,
+      "end": 930,
+      "genre": "sports",
+      "score": 55
+    },
+    {
+      "index": 92,
+      "program_id": "RTL5_8",
+      "channel_id": 4,
+      "start": 870,
+      "end": 930,
+      "genre": "kids",
+      "score": 77
+    },
+    {
+      "index": 93,
+      "program_id": "Euronews_7",
+      "channel_id": 11,
+      "start": 870,
+      "end": 990,
+      "genre": "news",
+      "score": 42
+    },
+    {
+      "index": 94,
+      "program_id": "NPO3_11",
+      "channel_id": 2,
+      "start": 900,
+      "end": 960,
+      "genre": "kids",
+      "score": 67
+    },
+    {
+      "index": 95,
+      "program_id": "NPO2_11",
+      "channel_id": 1,
+      "start": 900,
+      "end": 990,
+      "genre": "news",
+      "score": 57
+    },
+    {
+      "index": 96,
+      "program_id": "Veronica_7",
+      "channel_id": 8,
+      "start": 900,
+      "end": 990,
+      "genre": "talk",
+      "score": 59
+    },
+    {
+      "index": 97,
+      "program_id": "Eén_9",
+      "channel_id": 9,
+      "start": 900,
+      "end": 990,
+      "genre": "movie",
+      "score": 43
+    },
+    {
+      "index": 98,
+      "program_id": "SBS6_8",
+      "channel_id": 6,
+      "start": 900,
+      "end": 1020,
+      "genre": "talk",
+      "score": 79
+    },
+    {
+      "index": 99,
+      "program_id": "Net5_9",
+      "channel_id": 7,
+      "start": 930,
+      "end": 960,
+      "genre": "comedy",
+      "score": 90
+    },
+    {
+      "index": 100,
+      "program_id": "Canvas_9",
+      "channel_id": 10,
+      "start": 930,
+      "end": 960,
+      "genre": "kids",
+      "score": 43
+    },
+    {
+      "index": 101,
+      "program_id": "RTL4_8",
+      "channel_id": 3,
+      "start": 930,
+      "end": 990,
+      "genre": "news",
+      "score": 77
+    },
+    {
+      "index": 102,
+      "program_id": "RTL5_9",
+      "channel_id": 4,
+      "start": 930,
+      "end": 1020,
+      "genre": "sports",
+      "score": 86
+    },
+    {
+      "index": 103,
+      "program_id": "NPO1_8",
+      "channel_id": 0,
+      "start": 960,
+      "end": 990,
+      "genre": "sports",
+      "score": 89
+    },
+    {
+      "index": 104,
+      "program_id": "Canvas_10",
+      "channel_id": 10,
+      "start": 960,
+      "end": 990,
+      "genre": "news",
+      "score": 96
+    },
+    {
+      "index": 105,
+      "program_id": "NPO3_12",
+      "channel_id": 2,
+      "start": 960,
+      "end": 1020,
+      "genre": "news",
+      "score": 66
+    },
+    {
+      "index": 106,
+      "program_id": "Net5_10",
+      "channel_id": 7,
+      "start": 960,
+      "end": 1020,
+      "genre": "documentary",
+      "score": 100
+    },
+    {
+      "index": 107,
+      "program_id": "RTL7_9",
+      "channel_id": 5,
+      "start": 960,
+      "end": 1080,
+      "genre": "sports",
+      "score": 85
+    },
+    {
+      "index": 108,
+      "program_id": "NPO1_9",
+      "channel_id": 0,
+      "start": 990,
+      "end": 1020,
+      "genre": "comedy",
+      "score": 49
+    },
+    {
+      "index": 109,
+      "program_id": "Euronews_8",
+      "channel_id": 11,
+      "start": 990,
+      "end": 1020,
+      "genre": "documentary",
+      "score": 66
+    },
+    {
+      "index": 110,
+      "program_id": "Eén_10",
+      "channel_id": 9,
+      "start": 990,
+      "end": 1050,
+      "genre": "talk",
+      "score": 47
+    },
+    {
+      "index": 111,
+      "program_id": "RTL4_9",
+      "channel_id": 3,
+      "start": 990,
+      "end": 1080,
+      "genre": "kids",
+      "score": 43
+    },
+    {
+      "index": 112,
+      "program_id": "Canvas_11",
+      "channel_id": 10,
+      "start": 990,
+      "end": 1080,
+      "genre": "kids",
+      "score": 60
+    },
+    {
+      "index": 113,
+      "program_id": "NPO2_12",
+      "channel_id": 1,
+      "start": 990,
+      "end": 1110,
+      "genre": "kids",
+      "score": 92
+    },
+    {
+      "index": 114,
+      "program_id": "Veronica_8",
+      "channel_id": 8,
+      "start": 990,
+      "end": 1110,
+      "genre": "sports",
+      "score": 71
+    },
+    {
+      "index": 115,
+      "program_id": "SBS6_9",
+      "channel_id": 6,
+      "start": 1020,
+      "end": 1080,
+      "genre": "kids",
+      "score": 63
+    },
+    {
+      "index": 116,
+      "program_id": "NPO1_10",
+      "channel_id": 0,
+      "start": 1020,
+      "end": 1110,
+      "genre": "comedy",
+      "score": 91
+    },
+    {
+      "index": 117,
+      "program_id": "Net5_11",
+      "channel_id": 7,
+      "start": 1020,
+      "end": 1110,
+      "genre": "news",
+      "score": 74
+    },
+    {
+      "index": 118,
+      "program_id": "NPO3_13",
+      "channel_id": 2,
+      "start": 1020,
+      "end": 1140,
+      "genre": "drama",
+      "score": 58
+    },
+    {
+      "index": 119,
+      "program_id": "RTL5_10",
+      "channel_id": 4,
+      "start": 1020,
+      "end": 1140,
+      "genre": "comedy",
+      "score": 74
+    },
+    {
+      "index": 120,
+      "program_id": "Euronews_9",
+      "channel_id": 11,
+      "start": 1020,
+      "end": 1140,
+      "genre": "talk",
+      "score": 76
+    },
+    {
+      "index": 121,
+      "program_id": "Eén_11",
+      "channel_id": 9,
+      "start": 1050,
+      "end": 1170,
+      "genre": "comedy",
+      "score": 85
+    },
+    {
+      "index": 122,
+      "program_id": "RTL7_10",
+      "channel_id": 5,
+      "start": 1080,
+      "end": 1110,
+      "genre": "drama",
+      "score": 51
+    },
+    {
+      "index": 123,
+      "program_id": "RTL4_10",
+      "channel_id": 3,
+      "start": 1080,
+      "end": 1140,
+      "genre": "movie",
+      "score": 81
+    },
+    {
+      "index": 124,
+      "program_id": "Canvas_12",
+      "channel_id": 10,
+      "start": 1080,
+      "end": 1140,
+      "genre": "reality",
+      "score": 85
+    },
+    {
+      "index": 125,
+      "program_id": "SBS6_10",
+      "channel_id": 6,
+      "start": 1080,
+      "end": 1200,
+      "genre": "kids",
+      "score": 82
+    },
+    {
+      "index": 126,
+      "program_id": "Net5_12",
+      "channel_id": 7,
+      "start": 1110,
+      "end": 1140,
+      "genre": "news",
+      "score": 82
+    },
+    {
+      "index": 127,
+      "program_id": "RTL7_11",
+      "channel_id": 5,
+      "start": 1110,
+      "end": 1170,
+      "genre": "documentary",
+      "score": 86
+    },
+    {
+      "index": 128,
+      "program_id": "NPO1_11",
+      "channel_id": 0,
+      "start": 1110,
+      "end": 1200,
+      "genre": "movie",
+      "score": 61
+    },
+    {
+      "index": 129,
+      "program_id": "NPO2_13",
+      "channel_id": 1,
+      "start": 1110,
+      "end": 1200,
+      "genre": "comedy",
+      "score": 94
+    },
+    {
+      "index": 130,
+      "program_id": "Veronica_9",
+      "channel_id": 8,
+      "start": 1110,
+      "end": 1230,
+      "genre": "comedy",
+      "score": 66
+    },
+    {
+      "index": 131,
+      "program_id": "NPO3_14",
+      "channel_id": 2,
+      "start": 1140,
+      "end": 1170,
+      "genre": "talk",
+      "score": 48
+    },
+    {
+      "index": 132,
+      "program_id": "RTL4_11",
+      "channel_id": 3,
+      "start": 1140,
+      "end": 1170,
+      "genre": "drama",
+      "score": 49
+    },
+    {
+      "index": 133,
+      "program_id": "Net5_13",
+      "channel_id": 7,
+      "start": 1140,
+      "end": 1170,
+      "genre": "sports",
+      "score": 73
+    },
+    {
+      "index": 134,
+      "program_id": "Canvas_13",
+      "channel_id": 10,
+      "start": 1140,
+      "end": 1170,
+      "genre": "talk",
+      "score": 99
+    },
+    {
+      "index": 135,
+      "program_id": "RTL5_11",
+      "channel_id": 4,
+      "start": 1140,
+      "end": 1260,
+      "genre": "movie",
+      "score": 70
+    },
+    {
+      "index": 136,
+      "program_id": "Euronews_10",
+      "channel_id": 11,
+      "start": 1140,
+      "end": 1260,
+      "genre": "reality",
+      "score": 100
+    },
+    {
+      "index": 137,
+      "program_id": "Net5_14",
+      "channel_id": 7,
+      "start": 1170,
+      "end": 1230,
+      "genre": "music",
+      "score": 47
+    },
+    {
+      "index": 138,
+      "program_id": "Eén_12",
+      "channel_id": 9,
+      "start": 1170,
+      "end": 1230,
+      "genre": "news",
+      "score": 62
+    },
+    {
+      "index": 139,
+      "program_id": "Canvas_14",
+      "channel_id": 10,
+      "start": 1170,
+      "end": 1230,
+      "genre": "news",
+      "score": 93
+    },
+    {
+      "index": 140,
+      "program_id": "NPO3_15",
+      "channel_id": 2,
+      "start": 1170,
+      "end": 1260,
+      "genre": "news",
+      "score": 46
+    },
+    {
+      "index": 141,
+      "program_id": "RTL4_12",
+      "channel_id": 3,
+      "start": 1170,
+      "end": 1260,
+      "genre": "comedy",
+      "score": 84
+    },
+    {
+      "index": 142,
+      "program_id": "RTL7_12",
+      "channel_id": 5,
+      "start": 1170,
+      "end": 1260,
+      "genre": "talk",
+      "score": 93
+    },
+    {
+      "index": 143,
+      "program_id": "NPO2_14",
+      "channel_id": 1,
+      "start": 1200,
+      "end": 1260,
+      "genre": "drama",
+      "score": 70
+    },
+    {
+      "index": 144,
+      "program_id": "SBS6_11",
+      "channel_id": 6,
+      "start": 1200,
+      "end": 1290,
+      "genre": "music",
+      "score": 71
+    },
+    {
+      "index": 145,
+      "program_id": "NPO1_12",
+      "channel_id": 0,
+      "start": 1200,
+      "end": 1320,
+      "genre": "news",
+      "score": 61
+    },
+    {
+      "index": 146,
+      "program_id": "Net5_15",
+      "channel_id": 7,
+      "start": 1230,
+      "end": 1260,
+      "genre": "talk",
+      "score": 81
+    },
+    {
+      "index": 147,
+      "program_id": "Eén_13",
+      "channel_id": 9,
+      "start": 1230,
+      "end": 1260,
+      "genre": "news",
+      "score": 76
+    },
+    {
+      "index": 148,
+      "program_id": "Canvas_15",
+      "channel_id": 10,
+      "start": 1230,
+      "end": 1260,
+      "genre": "news",
+      "score": 55
+    },
+    {
+      "index": 149,
+      "program_id": "Veronica_10",
+      "channel_id": 8,
+      "start": 1230,
+      "end": 1350,
+      "genre": "sports",
+      "score": 51
+    },
+    {
+      "index": 150,
+      "program_id": "NPO2_15",
+      "channel_id": 1,
+      "start": 1260,
+      "end": 1290,
+      "genre": "news",
+      "score": 45
+    },
+    {
+      "index": 151,
+      "program_id": "Canvas_16",
+      "channel_id": 10,
+      "start": 1260,
+      "end": 1290,
+      "genre": "kids",
+      "score": 71
+    },
+    {
+      "index": 152,
+      "program_id": "RTL5_12",
+      "channel_id": 4,
+      "start": 1260,
+      "end": 1320,
+      "genre": "news",
+      "score": 71
+    },
+    {
+      "index": 153,
+      "program_id": "NPO3_16",
+      "channel_id": 2,
+      "start": 1260,
+      "end": 1350,
+      "genre": "news",
+      "score": 44
+    },
+    {
+      "index": 154,
+      "program_id": "RTL4_13",
+      "channel_id": 3,
+      "start": 1260,
+      "end": 1350,
+      "genre": "kids",
+      "score": 82
+    },
+    {
+      "index": 155,
+      "program_id": "RTL7_13",
+      "channel_id": 5,
+      "start": 1260,
+      "end": 1350,
+      "genre": "movie",
+      "score": 65
+    },
+    {
+      "index": 156,
+      "program_id": "Net5_16",
+      "channel_id": 7,
+      "start": 1260,
+      "end": 1350,
+      "genre": "talk",
+      "score": 55
+    },
+    {
+      "index": 157,
+      "program_id": "Euronews_11",
+      "channel_id": 11,
+      "start": 1260,
+      "end": 1350,
+      "genre": "kids",
+      "score": 62
+    },
+    {
+      "index": 158,
+      "program_id": "Eén_14",
+      "channel_id": 9,
+      "start": 1260,
+      "end": 1380,
+      "genre": "news",
+      "score": 49
+    },
+    {
+      "index": 159,
+      "program_id": "NPO2_16",
+      "channel_id": 1,
+      "start": 1290,
+      "end": 1320,
+      "genre": "sports",
+      "score": 49
+    },
+    {
+      "index": 160,
+      "program_id": "SBS6_12",
+      "channel_id": 6,
+      "start": 1290,
+      "end": 1320,
+      "genre": "news",
+      "score": 50
+    },
+    {
+      "index": 161,
+      "program_id": "Canvas_17",
+      "channel_id": 10,
+      "start": 1290,
+      "end": 1320,
+      "genre": "sports",
+      "score": 55
+    },
+    {
+      "index": 162,
+      "program_id": "NPO1_13",
+      "channel_id": 0,
+      "start": 1320,
+      "end": 1350,
+      "genre": "news",
+      "score": 86
+    },
+    {
+      "index": 163,
+      "program_id": "NPO2_17",
+      "channel_id": 1,
+      "start": 1320,
+      "end": 1350,
+      "genre": "kids",
+      "score": 65
+    },
+    {
+      "index": 164,
+      "program_id": "RTL5_13",
+      "channel_id": 4,
+      "start": 1320,
+      "end": 1350,
+      "genre": "talk",
+      "score": 50
+    },
+    {
+      "index": 165,
+      "program_id": "Canvas_18",
+      "channel_id": 10,
+      "start": 1320,
+      "end": 1380,
+      "genre": "kids",
+      "score": 76
+    },
+    {
+      "index": 166,
+      "program_id": "SBS6_13",
+      "channel_id": 6,
+      "start": 1320,
+      "end": 1440,
+      "genre": "sports",
+      "score": 40
+    },
+    {
+      "index": 167,
+      "program_id": "NPO2_18",
+      "channel_id": 1,
+      "start": 1350,
+      "end": 1380,
+      "genre": "comedy",
+      "score": 96
+    },
+    {
+      "index": 168,
+      "program_id": "Euronews_12",
+      "channel_id": 11,
+      "start": 1350,
+      "end": 1380,
+      "genre": "drama",
+      "score": 47
+    },
+    {
+      "index": 169,
+      "program_id": "NPO1_14",
+      "channel_id": 0,
+      "start": 1350,
+      "end": 1440,
+      "genre": "movie",
+      "score": 99
+    },
+    {
+      "index": 170,
+      "program_id": "NPO3_17",
+      "channel_id": 2,
+      "start": 1350,
+      "end": 1440,
+      "genre": "sports",
+      "score": 89
+    },
+    {
+      "index": 171,
+      "program_id": "RTL4_14",
+      "channel_id": 3,
+      "start": 1350,
+      "end": 1440,
+      "genre": "news",
+      "score": 46
+    },
+    {
+      "index": 172,
+      "program_id": "RTL5_14",
+      "channel_id": 4,
+      "start": 1350,
+      "end": 1440,
+      "genre": "comedy",
+      "score": 73
+    },
+    {
+      "index": 173,
+      "program_id": "RTL7_14",
+      "channel_id": 5,
+      "start": 1350,
+      "end": 1440,
+      "genre": "reality",
+      "score": 54
+    },
+    {
+      "index": 174,
+      "program_id": "Net5_17",
+      "channel_id": 7,
+      "start": 1350,
+      "end": 1440,
+      "genre": "movie",
+      "score": 99
+    },
+    {
+      "index": 175,
+      "program_id": "Veronica_11",
+      "channel_id": 8,
+      "start": 1350,
+      "end": 1440,
+      "genre": "talk",
+      "score": 84
+    },
+    {
+      "index": 176,
+      "program_id": "NPO2_19",
+      "channel_id": 1,
+      "start": 1380,
+      "end": 1440,
+      "genre": "comedy",
+      "score": 79
+    },
+    {
+      "index": 177,
+      "program_id": "Eén_15",
+      "channel_id": 9,
+      "start": 1380,
+      "end": 1440,
+      "genre": "movie",
+      "score": 42
+    },
+    {
+      "index": 178,
+      "program_id": "Canvas_19",
+      "channel_id": 10,
+      "start": 1380,
+      "end": 1440,
+      "genre": "documentary",
+      "score": 99
+    },
+    {
+      "index": 179,
+      "program_id": "Euronews_13",
+      "channel_id": 11,
+      "start": 1380,
+      "end": 1440,
+      "genre": "comedy",
+      "score": 62
+    }
+  ],
+  "neighbor_indices": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      6,
+      7,
+      8,
+      9,
+      13,
+      14,
+      15
+    ],
+    [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      6,
+      7,
+      8,
+      9,
+      11,
+      15,
+      16,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    [
+      6,
+      7,
+      8,
+      9,
+      10,
+      15,
+      16,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    [],
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      13,
+      14,
+      16,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    [
+      15,
+      22,
+      23,
+      24,
+      25,
+      26,
+      29,
+      30,
+      31,
+      32
+    ],
+    [
+      18
+    ],
+    [
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    [
+      22,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    [
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    [
+      22,
+      23,
+      24,
+      26,
+      29,
+      30,
+      31,
+      32,
+      34,
+      36,
+      37,
+      38
+    ],
+    [
+      22,
+      23,
+      24,
+      25,
+      29,
+      30,
+      31,
+      32,
+      34,
+      36,
+      37,
+      38
+    ],
+    [],
+    [
+      29,
+      33,
+      34
+    ],
+    [
+      28,
+      30,
+      31,
+      32,
+      33,
+      34,
+      36,
+      37,
+      38
+    ],
+    [
+      29,
+      31,
+      32,
+      34,
+      36,
+      37,
+      38,
+      42,
+      43
+    ],
+    [
+      29,
+      30,
+      32,
+      34,
+      36,
+      37,
+      38,
+      42,
+      43
+    ],
+    [
+      29,
+      30,
+      31,
+      34,
+      36,
+      37,
+      38,
+      42,
+      43
+    ],
+    [
+      34,
+      36,
+      37
+    ],
+    [
+      33,
+      36,
+      37,
+      38,
+      41,
+      42,
+      43
+    ],
+    [],
+    [
+      37,
+      38,
+      41,
+      42,
+      43,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    [
+      36,
+      38,
+      41,
+      42,
+      43,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    [
+      36,
+      37,
+      42,
+      43,
+      47,
+      48,
+      49,
+      51,
+      52,
+      53
+    ],
+    [
+      40
+    ],
+    [
+      39
+    ],
+    [
+      42,
+      45,
+      46,
+      47
+    ],
+    [
+      41,
+      43,
+      45,
+      46,
+      47,
+      48,
+      49,
+      51,
+      52,
+      53
+    ],
+    [
+      42,
+      47,
+      48,
+      49,
+      51,
+      52,
+      53,
+      56,
+      57,
+      58
+    ],
+    [],
+    [
+      46,
+      47
+    ],
+    [
+      45,
+      47
+    ],
+    [
+      45,
+      46,
+      48,
+      49,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    [
+      47,
+      49,
+      51,
+      52,
+      53,
+      56,
+      57,
+      58,
+      60
+    ],
+    [
+      47,
+      48,
+      51,
+      52,
+      53,
+      56,
+      57,
+      58,
+      60
+    ],
+    [],
+    [
+      52,
+      53,
+      56,
+      57,
+      58,
+      60,
+      63,
+      64,
+      65
+    ],
+    [
+      51,
+      53,
+      56,
+      57,
+      58,
+      60,
+      63,
+      64,
+      65
+    ],
+    [
+      51,
+      52,
+      56,
+      57,
+      58,
+      60,
+      63,
+      64,
+      65
+    ],
+    [
+      55,
+      60
+    ],
+    [
+      54,
+      60
+    ],
+    [
+      57,
+      58,
+      60,
+      63,
+      64,
+      65,
+      68
+    ],
+    [
+      56,
+      58,
+      60,
+      63,
+      64,
+      65,
+      68
+    ],
+    [
+      56,
+      57,
+      60,
+      63,
+      64,
+      65,
+      68
+    ],
+    [],
+    [
+      61,
+      62,
+      63,
+      64,
+      65,
+      68
+    ],
+    [
+      62,
+      63,
+      64
+    ],
+    [
+      61,
+      63,
+      64
+    ],
+    [
+      61,
+      62,
+      64,
+      65,
+      68,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    [
+      61,
+      62,
+      63,
+      65,
+      68,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    [
+      63,
+      64,
+      68,
+      75,
+      76,
+      80,
+      81
+    ],
+    [
+      67
+    ],
+    [
+      66
+    ],
+    [
+      75,
+      76,
+      80,
+      81,
+      85,
+      86,
+      87,
+      88
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      69,
+      71
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      73,
+      74,
+      75,
+      76,
+      80,
+      81
+    ],
+    [
+      72,
+      74,
+      75,
+      76,
+      80,
+      81
+    ],
+    [
+      72,
+      73,
+      75,
+      76,
+      80,
+      81
+    ],
+    [
+      72,
+      73,
+      74,
+      76,
+      80,
+      81,
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    [
+      72,
+      73,
+      74,
+      75,
+      80,
+      81,
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      77,
+      79
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      81,
+      84,
+      85,
+      86,
+      87,
+      88,
+      91,
+      92,
+      93
+    ],
+    [
+      80,
+      84,
+      85,
+      86,
+      87,
+      88,
+      91,
+      92,
+      93
+    ],
+    [
+      83
+    ],
+    [
+      82
+    ],
+    [
+      85,
+      86,
+      91,
+      92
+    ],
+    [
+      84,
+      86,
+      87,
+      88,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ],
+    [
+      84,
+      85,
+      87,
+      88,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ],
+    [
+      85,
+      86,
+      88,
+      93,
+      95,
+      96,
+      97,
+      98,
+      102
+    ],
+    [
+      85,
+      86,
+      87,
+      93,
+      95,
+      96,
+      97,
+      98,
+      102
+    ],
+    [
+      90
+    ],
+    [
+      89
+    ],
+    [
+      92,
+      94,
+      95,
+      96,
+      97
+    ],
+    [
+      91,
+      94,
+      95,
+      96,
+      97
+    ],
+    [
+      95,
+      96,
+      97,
+      98,
+      102,
+      107
+    ],
+    [
+      95,
+      96,
+      97,
+      101,
+      102
+    ],
+    [
+      94,
+      96,
+      97,
+      98,
+      101,
+      102,
+      105,
+      106,
+      107
+    ],
+    [
+      94,
+      95,
+      97,
+      98,
+      101,
+      102,
+      105,
+      106,
+      107
+    ],
+    [
+      94,
+      95,
+      96,
+      98,
+      101,
+      102,
+      105,
+      106,
+      107
+    ],
+    [
+      95,
+      96,
+      97,
+      102,
+      107,
+      111,
+      112,
+      113,
+      114
+    ],
+    [
+      100
+    ],
+    [
+      99
+    ],
+    [
+      102,
+      105,
+      106
+    ],
+    [
+      101,
+      105,
+      106,
+      107,
+      110,
+      111,
+      112,
+      113,
+      114
+    ],
+    [
+      104
+    ],
+    [
+      103
+    ],
+    [
+      106,
+      110,
+      111,
+      112
+    ],
+    [
+      105,
+      110,
+      111,
+      112
+    ],
+    [
+      111,
+      112,
+      113,
+      114,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    [
+      109
+    ],
+    [
+      108
+    ],
+    [
+      111,
+      112,
+      115,
+      116,
+      117
+    ],
+    [
+      110,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    [
+      110,
+      111,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    [
+      111,
+      112,
+      114,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      125
+    ],
+    [
+      111,
+      112,
+      113,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      125
+    ],
+    [
+      116,
+      117
+    ],
+    [
+      115,
+      117,
+      118,
+      119,
+      120,
+      121,
+      123,
+      124,
+      125
+    ],
+    [
+      115,
+      116,
+      118,
+      119,
+      120,
+      121,
+      123,
+      124,
+      125
+    ],
+    [
+      116,
+      117,
+      119,
+      120,
+      121,
+      125,
+      128,
+      129,
+      130
+    ],
+    [
+      116,
+      117,
+      118,
+      120,
+      121,
+      125,
+      128,
+      129,
+      130
+    ],
+    [
+      116,
+      117,
+      118,
+      119,
+      121,
+      125,
+      128,
+      129,
+      130
+    ],
+    [
+      125,
+      128,
+      129,
+      130,
+      135,
+      136
+    ],
+    [],
+    [
+      124,
+      127,
+      128,
+      129
+    ],
+    [
+      123,
+      127,
+      128,
+      129
+    ],
+    [
+      128,
+      129,
+      130,
+      135,
+      136,
+      140,
+      141,
+      142
+    ],
+    [],
+    [
+      128,
+      129
+    ],
+    [
+      127,
+      129,
+      130,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142
+    ],
+    [
+      127,
+      128,
+      130,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142
+    ],
+    [
+      128,
+      129,
+      135,
+      136,
+      140,
+      141,
+      142,
+      144,
+      145
+    ],
+    [
+      132,
+      133,
+      134
+    ],
+    [
+      131,
+      133,
+      134
+    ],
+    [
+      131,
+      132,
+      134
+    ],
+    [
+      131,
+      132,
+      133
+    ],
+    [
+      136,
+      140,
+      141,
+      142,
+      144,
+      145,
+      149
+    ],
+    [
+      135,
+      140,
+      141,
+      142,
+      144,
+      145,
+      149
+    ],
+    [
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144
+    ],
+    [
+      137,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144
+    ],
+    [
+      137,
+      138,
+      140,
+      141,
+      142,
+      143,
+      144
+    ],
+    [
+      137,
+      138,
+      139,
+      141,
+      142,
+      143,
+      144,
+      145,
+      149
+    ],
+    [
+      137,
+      138,
+      139,
+      140,
+      142,
+      143,
+      144,
+      145,
+      149
+    ],
+    [
+      137,
+      138,
+      139,
+      140,
+      141,
+      143,
+      144,
+      145,
+      149
+    ],
+    [
+      144
+    ],
+    [
+      143,
+      145,
+      149,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158
+    ],
+    [
+      144,
+      149,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158
+    ],
+    [
+      147,
+      148
+    ],
+    [
+      146,
+      148
+    ],
+    [
+      146,
+      147
+    ],
+    [
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      166
+    ],
+    [
+      151
+    ],
+    [
+      150
+    ],
+    [
+      153,
+      154,
+      155,
+      156,
+      157
+    ],
+    [
+      152,
+      154,
+      155,
+      156,
+      157,
+      158,
+      165,
+      166
+    ],
+    [
+      152,
+      153,
+      155,
+      156,
+      157,
+      158,
+      165,
+      166
+    ],
+    [
+      152,
+      153,
+      154,
+      156,
+      157,
+      158,
+      165,
+      166
+    ],
+    [
+      152,
+      153,
+      154,
+      155,
+      157,
+      158,
+      165,
+      166
+    ],
+    [
+      152,
+      153,
+      154,
+      155,
+      156,
+      158,
+      165,
+      166
+    ],
+    [
+      153,
+      154,
+      155,
+      156,
+      157,
+      166,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175
+    ],
+    [
+      160,
+      161
+    ],
+    [
+      159,
+      161
+    ],
+    [
+      159,
+      160
+    ],
+    [
+      163,
+      164
+    ],
+    [
+      162,
+      164
+    ],
+    [
+      162,
+      163
+    ],
+    [
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175
+    ],
+    [
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175
+    ],
+    [
+      168
+    ],
+    [
+      167
+    ],
+    [
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
+    [
+      169,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
+    [
+      169,
+      170,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
+    [
+      169,
+      170,
+      171,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
+    [
+      169,
+      170,
+      171,
+      172,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
+    [
+      169,
+      170,
+      171,
+      172,
+      173,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
+    [
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      176,
+      177,
+      178,
+      179
+    ],
+    [
+      177,
+      178,
+      179
+    ],
+    [
+      176,
+      178,
+      179
+    ],
+    [
+      176,
+      177,
+      179
+    ],
+    [
+      176,
+      177,
+      178
+    ]
+  ],
+  "advanced_params": {
+    "min_overlap_minutes": 5,
+    "max_duration_rel_diff": 0.45,
+    "require_different_channel": true
+  }
+}
