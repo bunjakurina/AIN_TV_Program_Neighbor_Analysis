@@ -1,0 +1,81 @@
+{
+  "instance": "toy.json",
+  "variant": "advanced",
+  "delta": null,
+  "program_count": 5,
+  "statistics": {
+    "max_neighbors": 0.0,
+    "min_neighbors": 0.0,
+    "avg_neighbors": 0.0
+  },
+  "neighbor_counts": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "validation": {
+    "valid": true,
+    "errors": []
+  },
+  "programs": [
+    {
+      "index": 0,
+      "program_id": "n1",
+      "channel_id": 0,
+      "start": 540,
+      "end": 600,
+      "genre": "news",
+      "score": 80
+    },
+    {
+      "index": 1,
+      "program_id": "n2",
+      "channel_id": 0,
+      "start": 600,
+      "end": 660,
+      "genre": "documentary",
+      "score": 70
+    },
+    {
+      "index": 2,
+      "program_id": "s1",
+      "channel_id": 1,
+      "start": 720,
+      "end": 840,
+      "genre": "sports",
+      "score": 100
+    },
+    {
+      "index": 3,
+      "program_id": "s2",
+      "channel_id": 1,
+      "start": 840,
+      "end": 960,
+      "genre": "sports",
+      "score": 90
+    },
+    {
+      "index": 4,
+      "program_id": "m1",
+      "channel_id": 2,
+      "start": 960,
+      "end": 1020,
+      "genre": "music",
+      "score": 60
+    }
+  ],
+  "neighbor_indices": [
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "advanced_params": {
+    "min_overlap_minutes": 5,
+    "max_duration_rel_diff": 0.45,
+    "require_different_channel": true
+  }
+}
